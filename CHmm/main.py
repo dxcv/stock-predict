@@ -100,8 +100,8 @@ def get_chmm_results(data, name, hidden_states):
     return chmm_obj
 
 # individual hmms
-hs_hmm = get_hmm_results(hs_data, 'HS', hidden_states)
-sz_hmm = get_hmm_results(sz_data, 'SZ', hidden_states)
+# hs_hmm = get_hmm_results(hs_data, 'HS', hidden_states)
+# sz_hmm = get_hmm_results(sz_data, 'SZ', hidden_states)
 
 # joint hmm
 joined_hmm = get_chmm_results(chmm_data, 'HS-SZ', hidden_states * hidden_states)
