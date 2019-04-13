@@ -5,10 +5,13 @@
 - Python 3.7 & 3.6
 ## Content
 ### Chmm  
-    Apriori | FP-Growth
+    Coupled Hidden Markov model
 ### Hmm
-    NB | KNN | Decision Tree
-### Svm
-    K-Means | DBSCAN | AP | AHC
+    Hidden Markov model
+### Svm-LR
+    Support-Vector Machine | Linear Regression
+### R
+    Data Anaylse using R
+
 
 
