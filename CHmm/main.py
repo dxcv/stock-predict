@@ -9,6 +9,7 @@ import hmm as hmm
 import utils
 import chmm as chmm
 
+
 def transform_data(data, obs_states):
     rsi = ta.rsi(data, period=4, smooth=3)
     result = np.zeros((rsi.values.shape[0], obs_states))
@@ -16,6 +17,7 @@ def transform_data(data, obs_states):
         index = np.where(obs_range > rsi.values[i])[0][0] - 1
         result[i, index] = 1
     return result
+
 
 def load_data():
     # load data
@@ -26,7 +28,6 @@ def load_data():
     SZDataFile = "sz50.csv"
     data_SZ_obj = Data_loader(
         SZDataFile, folder, True, delimiter=',', date_format='%Y%m%d %H%M%S')
-
 
     # create combined data
     HS_dict = {
@@ -45,6 +46,7 @@ def load_data():
     df = df_joined[df_joined.nb % period == 0]
     return df
 
+
 # load data
 df = load_data()
 # plot data
@@ -56,15 +58,16 @@ h1, l1 = ax1.get_legend_handles_labels()
 h2, l2 = ax2.get_legend_handles_labels()
 lgd = plt.legend(h1 + h2, l1 + l2, loc=4)
 plt.title('Price of HS300 and SZ50 (2010/01/01 to 2017/12/31)')
-utils.save_figure('./img/',plt, 'Main', '1', lgd)
+utils.save_figure('./img/', plt, 'Main', '1', lgd)
 
 # compute data
 obs_states = 8
 obs_range = np.linspace(0, 100, obs_states + 1)  # 0., 0.125, 0.25, ...
 hs_data = transform_data(df.HS, obs_states)
 sz_data = transform_data(df.SZ, obs_states)
-chmm_data = np.array([ np.ravel(np.outer(hs_data[t, :], sz_data[t, :])) for t in range(sz_data.shape[0])])
+chmm_data = np.array([np.ravel(np.outer(hs_data[t, :], sz_data[t, :])) for t in range(sz_data.shape[0])])
 hidden_states = 5
+
 
 # show some results
 def get_hmm_results(data, name, hidden_states):
@@ -83,6 +86,7 @@ def get_hmm_results(data, name, hidden_states):
         200, 'Viterbi ({})'.format(name), '{}'.format(name), '4')
     return hmm_obj
 
+
 def get_chmm_results(data, name, hidden_states):
     obs_states = data.shape[1]
     chmm_obj = chmm.CHmm(data, 'log-scale', hidden_states, obs_states)
@@ -99,10 +103,10 @@ def get_chmm_results(data, name, hidden_states):
         data, 200, 'Viterbi ({})'.format(name), '{}'.format(name), '4')
     return chmm_obj
 
+
 # individual hmms
 # hs_hmm = get_hmm_results(hs_data, 'HS', hidden_states)
 # sz_hmm = get_hmm_results(sz_data, 'SZ', hidden_states)
 
 # joint hmm
 joined_hmm = get_chmm_results(chmm_data, 'HS-SZ', hidden_states * hidden_states)
-

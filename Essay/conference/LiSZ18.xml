@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<dblp>
+<inproceedings key="conf/acml/LiSZ18" mdate="2019-04-03">
+<author>Hao Li</author>
+<author>Yanyan Shen</author>
+<author>Yanmin Zhu</author>
+<title>Stock Price Prediction Using Attention-based Multi-Input LSTM.</title>
+<pages>454-469</pages>
+<year>2018</year>
+<booktitle>ACML</booktitle>
+<ee type="oa">http://proceedings.mlr.press/v95/li18c.html</ee>
+<crossref>conf/acml/2018</crossref>
+<url>db/conf/acml/acml2018.html#LiSZ18</url>
+</inproceedings>
+</dblp>

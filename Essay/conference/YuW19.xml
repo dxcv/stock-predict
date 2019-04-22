@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="US-ASCII"?>
+<dblp>
+<inproceedings key="conf/bigcomp/YuW19" mdate="2019-04-09">
+<author>Mu-Hui Yu</author>
+<author>Jheng-Long Wu</author>
+<title>CEAM: A Novel Approach Using Cycle Embeddings with Attention Mechanism for Stock Price Prediction.</title>
+<pages>1-4</pages>
+<year>2019</year>
+<booktitle>BigComp</booktitle>
+<ee>https://doi.org/10.1109/BIGCOMP.2019.8679218</ee>
+<crossref>conf/bigcomp/2019</crossref>
+<url>db/conf/bigcomp/bigcomp2019.html#YuW19</url>
+</inproceedings>
+</dblp>

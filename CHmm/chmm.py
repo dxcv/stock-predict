@@ -5,10 +5,9 @@ import matplotlib.pyplot as plt
 import utils
 from scipy.stats import multinomial
 
-
-COLORS = ["r", "orange", "b", 'g', 'darkgreen', 'red', 'yellow', 'yellowgreen','gold',
-          'lightskyblue','lightcoral', 'c', 'm', 'y', 'k', 'w',"r", "orange", "b", 'g', 'darkgreen', 'red',
-          'yellow', 'yellowgreen','gold']
+COLORS = ["r", "orange", "b", 'g', 'darkgreen', 'red', 'yellow', 'yellowgreen', 'gold',
+          'lightskyblue', 'lightcoral', 'c', 'm', 'y', 'k', 'w', "r", "orange", "b", 'g', 'darkgreen', 'red',
+          'yellow', 'yellowgreen', 'gold']
 
 """
 coupled Hidden Markov Model class
@@ -29,8 +28,8 @@ class CHmm(object):
         self.C = data.shape[1]
         self.obs_states = obs_states
         self.states = range(self.K)
-        self.pi = np.full((self.K), 1 / self.K)
-        #self.pi = np.full((self.C, self.K), 1 / self.K)
+        self.pi = np.full(self.K, 1 / self.K)
+        # self.pi = np.full((self.C, self.K), 1 / self.K)
 
         # the probability transition matrix 转移概率矩阵
         # stays 0.5 in its current state and 0.5/(self.K-1) otherwise
@@ -42,9 +41,9 @@ class CHmm(object):
                                     for j in range(self.K)] for i in range(self.K)])
         self.a = [self.a_simple.copy() for c in range(self.C * self.C)]
         '''
-        # the emission probabilities are multinomials发散概率多项式
+        # the emission probabilities are multinomials 发散概率多项式
         self.eta = np.array([[1 / self.obs_states for j in range(self.obs_states)]
-                              for i in range(self.K)])
+                             for i in range(self.K)])
         '''
         self.eta = np.array([[[1 / self.obs_states for j in range(self.obs_states)]
                               for i in range(self.K)] for c in range(self.C)])
@@ -60,8 +59,8 @@ class CHmm(object):
 
         self.data = data
         self.T = data.shape[0]
-        self.train_data = data   #指定时间
-        self.test_data =data
+        self.train_data = data  # 指定时间
+        self.test_data = data
         self.hmm_type = hmm_type
         return
 
@@ -100,8 +99,8 @@ class CHmm(object):
                 log_alpha_star = np.amax(self.log_alpha[t, :])
                 for q in self.states:
                     self.log_alpha[t + 1, q] = self.log_b[t + 1, q] + log_alpha_star + \
-                        math.log(sum((math.exp(self.log_alpha[t, q0] -
-                                               log_alpha_star) * self.a[q0, q])for q0 in self.states))
+                                               math.log(sum((math.exp(self.log_alpha[t, q0] -
+                                                                      log_alpha_star) * self.a[q0, q]) for q0 in self.states))
 
         # rescaled case调整过的例子
         elif self.hmm_type == 'rescaled':
@@ -133,7 +132,7 @@ class CHmm(object):
                 log_beta_star = np.amax(self.log_beta[t + 1, :])
                 for q in self.states:
                     self.log_beta[t, q] = log_beta_star + math.log(sum((math.exp(
-                        self.log_beta[t + 1, q1] - log_beta_star) * self.a[q, q1] * self.b[t + 1, q1]) for q1 in self.states)+1e-6)
+                        self.log_beta[t + 1, q1] - log_beta_star) * self.a[q, q1] * self.b[t + 1, q1]) for q1 in self.states) + 1e-6)
         elif self.hmm_type == 'rescaled':
             self.beta = np.zeros((self.T, self.K))
             self.scale_factor_beta = np.ones(self.T)
@@ -180,7 +179,7 @@ class CHmm(object):
                         for q1 in self.states:
                             self.joined_cond_proba[t, q, q1] = math.exp(
                                 self.log_alpha[t, q] + self.log_beta[t + 1, q1] - amax) \
-                                * self.b[t + 1, q1] * self.a[q, q1] / proba_sum
+                                                               * self.b[t + 1, q1] * self.a[q, q1] / proba_sum
         elif self.hmm_type == 'rescaled':
             self.cond_proba = self.alpha * self.beta
             denom = self.cond_proba.sum(1)
@@ -189,9 +188,9 @@ class CHmm(object):
             denom = denom * self.scale_factor_beta
             denom = denom[:(self.T - 1), None, None]
             self.joined_cond_proba = self.alpha[:(self.T - 1), :, None] * self.beta[1:self.T, None, :] \
-                * np.asarray(self.a)[None, :, :] \
-                * self.b[1:self.T, :, None].transpose((0, 2, 1)) \
-                / denom
+                                     * np.asarray(self.a)[None, :, :] \
+                                     * self.b[1:self.T, :, None].transpose((0, 2, 1)) \
+                                     / denom
         else:
             raise RuntimeError("unknow type allowed log-scale or rescaled")
         return
@@ -205,12 +204,12 @@ class CHmm(object):
         print(path_data.shape)
         data = np.zeros((len(path_data), self.K))
         for i in range(len(path_data)):
-            data[i, int(path_data[i,1])] = 1 #有修改
+            data[i, int(path_data[i, 1])] = 1  # 有修改
         self.__plot_states(data, T_max, title, prefix, suffix, 'step')
         return
 
     def __plot_states(self, data, T_max, title, prefix, suffix, plot_type='plot'):
-        f, axarr = plt.subplots(self.K,  sharex=True)
+        f, axarr = plt.subplots(self.K, sharex=True)
         for i in range(self.K):
             if plot_type == 'step':
                 axarr[i].step(range(T_max), data[:T_max, i],
@@ -223,7 +222,7 @@ class CHmm(object):
         lgd = plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
         plt.title(title, y=(self.K + 0.8))
         plt.setp([a.get_xticklabels() for a in f.axes[:-1]], visible=False)
-        utils.save_figure('./img/chmm/',plt, prefix, suffix, lgd)
+        utils.save_figure('./img/chmm/', plt, prefix, suffix, lgd)
         return
 
     # the incomplete lok likelihood is composed 不完全似然估计值
@@ -249,7 +248,7 @@ class CHmm(object):
             self.a = self.joined_cond_proba.sum(
                 0) / self.joined_cond_proba.sum((0, 1))
             self.eta = (self.cond_proba[:, :, None] * self.train_data[:,
-                                                                      None, :]).sum(0) / self.cond_proba.sum(0)[:, None]
+                                                      None, :]).sum(0) / self.cond_proba.sum(0)[:, None]
 
             # compute expected_complete_log_likelihood
             if compute_likelihood:
@@ -290,7 +289,7 @@ class CHmm(object):
         plt.ylabel('log likelihood')
         plt.xlabel('EM iterations')
         lgd = plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
-        utils.save_figure('./img/chmm/',plt, prefix, suffix, lgd)
+        utils.save_figure('./img/chmm/', plt, prefix, suffix, lgd)
         return
 
     # Q7
@@ -328,7 +327,7 @@ class CHmm(object):
             self.max_proba[0, :] = self.pi * self.b[0, :]
             self.scale_factor_viterbi[0] = self.max_proba[0, :].sum()
             self.max_proba[0, :] = self.max_proba[0, :] / \
-                self.scale_factor_viterbi[0]
+                                   self.scale_factor_viterbi[0]
 
             # Run Viterbi for t > 0
             for t in range(1, T):
@@ -337,7 +336,7 @@ class CHmm(object):
                         (self.max_proba[t - 1, q0] * self.a[q0, q] * self.b[t, q], q0) for q0 in self.states)
                 self.scale_factor_viterbi[t] = self.max_proba[t, :].sum()
                 self.max_proba[t, :] = self.max_proba[t, :] / \
-                    self.scale_factor_viterbi[t]
+                                       self.scale_factor_viterbi[t]
 
             # do backward induction
             self.path[T - 1] = np.argmax(self.max_proba[T - 1, :])

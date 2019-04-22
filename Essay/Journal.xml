@@ -1,0 +1,1255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+    <query id="76543">stock price* prediction* :facetid:type:Journal_Articles</query>
+    <status code="200">OK</status>
+    <time unit="msecs">4.09</time>
+    <completions total="1" computed="1" sent="1">
+        <c sc="60" dc="60" oc="60" id="14573114">:facetid:type:Journal_Articles</c>
+    </completions>
+    <hits total="60" computed="60" sent="60" first="0">
+        <hit score="6" id="1013065">
+            <info>
+                <authors>
+                    <author>Reza Hafezi</author>
+                    <author>Jamal Shahrabi</author>
+                    <author>Esmaeil Hadavandi</author>
+                </authors>
+                <title>A bat-neural network multi-agent system (BNNMAS) for stock price prediction - Case study of DAX stock price.</title>
+                <venue>Appl. Soft Comput.</venue>
+                <volume>29</volume>
+                <pages>196-210</pages>
+                <year>2015</year>
+                <type>Journal Articles</type>
+                <key>journals/asc/HafeziSH15</key>
+                <doi>10.1016/J.ASOC.2014.12.028</doi>
+                <ee>https://doi.org/10.1016/j.asoc.2014.12.028</ee>
+                <url>https://dblp.org/rec/journals/asc/HafeziSH15</url>
+            </info>
+            <url>URL#1013065</url>
+        </hit>
+        <hit score="5" id="1326314">
+            <info>
+                <authors>
+                    <author>Yanshan Wang</author>
+                </authors>
+                <title>Stock price direction prediction by directly using prices data - an empirical study on the KOSPI and HSI.</title>
+                <venue>IJBIDM</venue>
+                <volume>9</volume>
+                <number>2</number>
+                <pages>145-160</pages>
+                <year>2014</year>
+                <type>Journal Articles</type>
+                <key>journals/ijbidm/Wang14</key>
+                <doi>10.1504/IJBIDM.2014.065091</doi>
+                <ee>https://doi.org/10.1504/IJBIDM.2014.065091</ee>
+                <url>https://dblp.org/rec/journals/ijbidm/Wang14</url>
+            </info>
+            <url>URL#1326314</url>
+        </hit>
+        <hit score="5" id="1332562">
+            <info>
+                <authors>
+                    <author>Xiaodong Li 0007</author>
+                    <author>Xiaodi Huang</author>
+                    <author>Xiaotie Deng</author>
+                    <author>Shanfeng Zhu</author>
+                </authors>
+                <title>Enhancing quantitative intra-day stock return prediction by integrating both market news and stock prices information.</title>
+                <venue>Neurocomputing</venue>
+                <volume>142</volume>
+                <pages>228-238</pages>
+                <year>2014</year>
+                <type>Journal Articles</type>
+                <key>journals/ijon/LiHDZ14</key>
+                <doi>10.1016/J.NEUCOM.2014.04.043</doi>
+                <ee>https://doi.org/10.1016/j.neucom.2014.04.043</ee>
+                <url>https://dblp.org/rec/journals/ijon/LiHDZ14</url>
+            </info>
+            <url>URL#1332562</url>
+        </hit>
+        <hit score="5" id="1596027">
+            <info>
+                <authors>
+                    <author>Fagner Andrade de Oliveira</author>
+                    <author>Cristiane Neri Nobre</author>
+                    <author>Luis E. Zárate</author>
+                </authors>
+                <title>Applying Artificial Neural Networks to prediction of stock price and improvement of the directional prediction index - Case study of PETR4, Petrobras, Brazil.</title>
+                <venue>Expert Syst. Appl.</venue>
+                <volume>40</volume>
+                <number>18</number>
+                <pages>7596-7606</pages>
+                <year>2013</year>
+                <type>Journal Articles</type>
+                <key>journals/eswa/OliveiraNZ13</key>
+                <doi>10.1016/J.ESWA.2013.06.071</doi>
+                <ee>https://doi.org/10.1016/j.eswa.2013.06.071</ee>
+                <url>https://dblp.org/rec/journals/eswa/OliveiraNZ13</url>
+            </info>
+            <url>URL#1596027</url>
+        </hit>
+        <hit score="4" id="257">
+            <info>
+                <authors>
+                    <author>Gang-Hoo Kim</author>
+                    <author>Sung-Ho Kim</author>
+                </authors>
+                <title>Variable Selection for Artificial Neural Networks with Applications for Stock Price Prediction.</title>
+                <venue>Applied Artificial Intelligence</venue>
+                <volume>33</volume>
+                <number>1</number>
+                <pages>54-67</pages>
+                <year>2019</year>
+                <type>Journal Articles</type>
+                <key>journals/aai/KimK19</key>
+                <doi>10.1080/08839514.2018.1525850</doi>
+                <ee>https://doi.org/10.1080/08839514.2018.1525850</ee>
+                <url>https://dblp.org/rec/journals/aai/KimK19</url>
+            </info>
+            <url>URL#257</url>
+        </hit>
+        <hit score="4" id="5195">
+            <info>
+                <authors>
+                    <author>Yoojeong Song</author>
+                    <author>Jae Won Lee</author>
+                    <author>Jongwoo Lee</author>
+                </authors>
+                <title>A study on novel filtering and relationship between input-features and target-vectors in a deep learning model for stock price prediction.</title>
+                <venue>Appl. Intell.</venue>
+                <volume>49</volume>
+                <number>3</number>
+                <pages>897-911</pages>
+                <year>2019</year>
+                <type>Journal Articles</type>
+                <key>journals/apin/SongLL19</key>
+                <doi>10.1007/S10489-018-1308-X</doi>
+                <ee>https://doi.org/10.1007/s10489-018-1308-x</ee>
+                <url>https://dblp.org/rec/journals/apin/SongLL19</url>
+            </info>
+            <url>URL#5195</url>
+        </hit>
+        <hit score="4" id="5546">
+            <info>
+                <authors>
+                    <author>Ranjeeta Bisoi</author>
+                    <author>P. K. Dash</author>
+                    <author>A. K. Parida</author>
+                </authors>
+                <title>Hybrid Variational Mode Decomposition and evolutionary robust kernel extreme learning machine for stock price and movement prediction on daily basis.</title>
+                <venue>Appl. Soft Comput.</venue>
+                <volume>74</volume>
+                <pages>652-678</pages>
+                <year>2019</year>
+                <type>Journal Articles</type>
+                <key>journals/asc/BisoiDP19</key>
+                <doi>10.1016/J.ASOC.2018.11.008</doi>
+                <ee>https://doi.org/10.1016/j.asoc.2018.11.008</ee>
+                <url>https://dblp.org/rec/journals/asc/BisoiDP19</url>
+            </info>
+            <url>URL#5546</url>
+        </hit>
+        <hit score="4" id="12417">
+            <info>
+                <authors>
+                    <author>Wen Long</author>
+                    <author>Linqiu Song</author>
+                    <author>Ying-jie Tian</author>
+                </authors>
+                <title>A new graphic kernel method of stock price trend prediction based on financial news semantic and structural similarity.</title>
+                <venue>Expert Syst. Appl.</venue>
+                <volume>118</volume>
+                <pages>411-424</pages>
+                <year>2019</year>
+                <type>Journal Articles</type>
+                <key>journals/eswa/LongST19</key>
+                <doi>10.1016/J.ESWA.2018.10.008</doi>
+                <ee>https://doi.org/10.1016/j.eswa.2018.10.008</ee>
+                <url>https://dblp.org/rec/journals/eswa/LongST19</url>
+            </info>
+            <url>URL#12417</url>
+        </hit>
+        <hit score="4" id="16415">
+            <info>
+                <authors>
+                    <author>Jihong Xiao</author>
+                    <author>Xuehong Zhu</author>
+                    <author>Chuangxia Huang</author>
+                    <author>Xiaoguang Yang</author>
+                    <author>Fenghua Wen</author>
+                    <author>Meirui Zhong</author>
+                </authors>
+                <title>A New Approach for Stock Price Analysis and Prediction Based on SSA and SVM.</title>
+                <venue>International Journal of Information Technology and Decision Making</venue>
+                <volume>18</volume>
+                <number>1</number>
+                <pages>287-310</pages>
+                <year>2019</year>
+                <type>Journal Articles</type>
+                <key>journals/ijitdm/XiaoZHYWZ19</key>
+                <doi>10.1142/S021962201841002X</doi>
+                <ee>https://doi.org/10.1142/S021962201841002X</ee>
+                <url>https://dblp.org/rec/journals/ijitdm/XiaoZHYWZ19</url>
+            </info>
+            <url>URL#16415</url>
+        </hit>
+        <hit score="4" id="17559">
+            <info>
+                <authors>
+                    <author>Srinivasan N.</author>
+                    <author>C. Lakshmi</author>
+                </authors>
+                <title>Stock Price Prediction Using Fuzzy Time-Series Population Based Gravity Search Algorithm.</title>
+                <venue>IJSI</venue>
+                <volume>7</volume>
+                <number>2</number>
+                <pages>50-64</pages>
+                <year>2019</year>
+                <type>Journal Articles</type>
+                <key>journals/ijsinnov/NL19</key>
+                <doi>10.4018/IJSI.2019040105</doi>
+                <ee>https://doi.org/10.4018/IJSI.2019040105</ee>
+                <url>https://dblp.org/rec/journals/ijsinnov/NL19</url>
+            </info>
+            <url>URL#17559</url>
+        </hit>
+        <hit score="4" id="24056">
+            <info>
+                <authors>
+                    <author>Wen Long</author>
+                    <author>Zhichen Lu</author>
+                    <author>Lingxiao Cui</author>
+                </authors>
+                <title>Deep learning-based feature engineering for stock price movement prediction.</title>
+                <venue>Knowl.-Based Syst.</venue>
+                <volume>164</volume>
+                <pages>163-173</pages>
+                <year>2019</year>
+                <type>Journal Articles</type>
+                <key>journals/kbs/LongLC19</key>
+                <doi>10.1016/J.KNOSYS.2018.10.034</doi>
+                <ee>https://doi.org/10.1016/j.knosys.2018.10.034</ee>
+                <url>https://dblp.org/rec/journals/kbs/LongLC19</url>
+            </info>
+            <url>URL#24056</url>
+        </hit>
+        <hit score="4" id="26105">
+            <info>
+                <authors>
+                    <author>Mustafa Göçken</author>
+                    <author>Mehmet Özçalici</author>
+                    <author>Asli Boru</author>
+                    <author>Ayse Tugba Dosdogru</author>
+                </authors>
+                <title>Stock price prediction using hybrid soft computing models incorporating parameter tuning and input variable selection.</title>
+                <venue>Neural Computing and Applications</venue>
+                <volume>31</volume>
+                <number>2</number>
+                <pages>577-592</pages>
+                <year>2019</year>
+                <type>Journal Articles</type>
+                <key>journals/nca/GockenOBD19</key>
+                <doi>10.1007/S00521-017-3089-2</doi>
+                <ee>https://doi.org/10.1007/s00521-017-3089-2</ee>
+                <url>https://dblp.org/rec/journals/nca/GockenOBD19</url>
+            </info>
+            <url>URL#26105</url>
+        </hit>
+        <hit score="4" id="31672">
+            <info>
+                <authors>
+                    <author>Malav Shastri</author>
+                    <author>Sudipta Roy</author>
+                    <author>Mamta Mittal</author>
+                </authors>
+                <title>Stock Price Prediction using Artificial Neural Model - An Application of Big Data.</title>
+                <venue>EAI Endorsed Trans. Scalable Information Systems</venue>
+                <volume>6</volume>
+                <number>20</number>
+                <pages>e1</pages>
+                <year>2019</year>
+                <type>Journal Articles</type>
+                <key>journals/sis/ShastriRM19</key>
+                <doi>10.4108/EAI.19-12-2018.156085</doi>
+                <ee>https://doi.org/10.4108/eai.19-12-2018.156085</ee>
+                <url>https://dblp.org/rec/journals/sis/ShastriRM19</url>
+            </info>
+            <url>URL#31672</url>
+        </hit>
+        <hit score="4" id="77837">
+            <info>
+                <authors>
+                    <author>Lei Lei</author>
+                </authors>
+                <title>Wavelet Neural Network Prediction Method of Stock Price Trend Based on Rough Set Attribute Reduction.</title>
+                <venue>Appl. Soft Comput.</venue>
+                <volume>62</volume>
+                <pages>923-932</pages>
+                <year>2018</year>
+                <type>Journal Articles</type>
+                <key>journals/asc/Lei18</key>
+                <doi>10.1016/J.ASOC.2017.09.029</doi>
+                <ee>https://doi.org/10.1016/j.asoc.2017.09.029</ee>
+                <url>https://dblp.org/rec/journals/asc/Lei18</url>
+            </info>
+            <url>URL#77837</url>
+        </hit>
+        <hit score="4" id="87416">
+            <info>
+                <authors>
+                    <author>Wenxing Hong</author>
+                    <author>Weiwei Wang</author>
+                    <author>Yang Weng</author>
+                    <author>Sishu Luo</author>
+                    <author>Pingbo Hu</author>
+                    <author>Xiaoqing Zheng</author>
+                    <author>Jianwei Qi</author>
+                </authors>
+                <title>Stock Price movements Prediction with Textual Information.</title>
+                <venue>Mechatronic Systems and Control</venue>
+                <volume>46</volume>
+                <number>3</number>
+                <year>2018</year>
+                <type>Journal Articles</type>
+                <key>journals/cis/HongWWLHZQ18</key>
+                <doi>10.2316/JOURNAL.201.2018.3.201-3039</doi>
+                <ee>https://doi.org/10.2316/Journal.201.2018.3.201-3039</ee>
+                <url>https://dblp.org/rec/journals/cis/HongWWLHZQ18</url>
+            </info>
+            <url>URL#87416</url>
+        </hit>
+        <hit score="4" id="102912">
+            <info>
+                <authors>
+                    <author>Jing Zhang 0015</author>
+                    <author>Shicheng Cui</author>
+                    <author>Yan Xu</author>
+                    <author>Qianmu Li</author>
+                    <author>Tao Li 0001</author>
+                </authors>
+                <title>A novel data-driven stock price trend prediction system.</title>
+                <venue>Expert Syst. Appl.</venue>
+                <volume>97</volume>
+                <pages>60-69</pages>
+                <year>2018</year>
+                <type>Journal Articles</type>
+                <key>journals/eswa/ZhangCXLL18</key>
+                <doi>10.1016/J.ESWA.2017.12.026</doi>
+                <ee>https://doi.org/10.1016/j.eswa.2017.12.026</ee>
+                <url>https://dblp.org/rec/journals/eswa/ZhangCXLL18</url>
+            </info>
+            <url>URL#102912</url>
+        </hit>
+        <hit score="4" id="103999">
+            <info>
+                <authors>
+                    <author>Seungwoo Jeon</author>
+                    <author>Bonghee Hong</author>
+                    <author>Victor Chang</author>
+                </authors>
+                <title>Pattern graph tracking-based stock price prediction using big data.</title>
+                <venue>Future Generation Comp. Syst.</venue>
+                <volume>80</volume>
+                <pages>171-187</pages>
+                <year>2018</year>
+                <type>Journal Articles</type>
+                <key>journals/fgcs/JeonHC18</key>
+                <doi>10.1016/J.FUTURE.2017.02.010</doi>
+                <ee>https://doi.org/10.1016/j.future.2017.02.010</ee>
+                <url>https://dblp.org/rec/journals/fgcs/JeonHC18</url>
+            </info>
+            <url>URL#103999</url>
+        </hit>
+        <hit score="4" id="108269">
+            <info>
+                <authors>
+                    <author>Misuk Kim</author>
+                    <author>Eunjeong Lucy Park</author>
+                    <author>Sungzoon Cho</author>
+                </authors>
+                <title>Stock price prediction through sentiment analysis of corporate disclosures using distributed representation.</title>
+                <venue>Intell. Data Anal.</venue>
+                <volume>22</volume>
+                <number>6</number>
+                <pages>1395-1413</pages>
+                <year>2018</year>
+                <type>Journal Articles</type>
+                <key>journals/ida/KimPC18</key>
+                <doi>10.3233/IDA-173670</doi>
+                <ee>https://doi.org/10.3233/IDA-173670</ee>
+                <url>https://dblp.org/rec/journals/ida/KimPC18</url>
+            </info>
+            <url>URL#108269</url>
+        </hit>
+        <hit score="4" id="109355">
+            <info>
+                <authors>
+                    <author>Takashi Matsubara</author>
+                    <author>Ryo Akita</author>
+                    <author>Kuniaki Uehara</author>
+                </authors>
+                <title>Stock Price Prediction by Deep Neural Generative Model of News Articles.</title>
+                <venue>IEICE Transactions</venue>
+                <volume>101-D</volume>
+                <number>4</number>
+                <pages>901-908</pages>
+                <year>2018</year>
+                <type>Journal Articles</type>
+                <key>journals/ieicet/MatsubaraAU18</key>
+                <doi>10.1587/TRANSINF.2016IIP0016</doi>
+                <ee>https://doi.org/10.1587/transinf.2016IIP0016</ee>
+                <url>https://dblp.org/rec/journals/ieicet/MatsubaraAU18</url>
+            </info>
+            <url>URL#109355</url>
+        </hit>
+        <hit score="4" id="150494">
+            <info>
+                <authors>
+                    <author>Li Zhang 0025</author>
+                    <author>Fulin Wang</author>
+                    <author>Bing Xu</author>
+                    <author>Wenyu Chi</author>
+                    <author>Qiongya Wang</author>
+                    <author>Ting Sun</author>
+                </authors>
+                <title>Prediction of stock prices based on LM-BP neural network and the estimation of overfitting point by RDCI.</title>
+                <venue>Neural Computing and Applications</venue>
+                <volume>30</volume>
+                <number>5</number>
+                <pages>1425-1444</pages>
+                <year>2018</year>
+                <type>Journal Articles</type>
+                <key>journals/nca/ZhangWXCWS18</key>
+                <doi>10.1007/S00521-017-3296-X</doi>
+                <ee>https://doi.org/10.1007/s00521-017-3296-x</ee>
+                <url>https://dblp.org/rec/journals/nca/ZhangWXCWS18</url>
+            </info>
+            <url>URL#150494</url>
+        </hit>
+        <hit score="4" id="150616">
+            <info>
+                <authors>
+                    <author>Tingwei Gao</author>
+                    <author>Yueting Chai</author>
+                </authors>
+                <title>Improving Stock Closing Price Prediction Using Recurrent Neural Network and Technical Indicators.</title>
+                <venue>Neural Computation</venue>
+                <volume>30</volume>
+                <number>10</number>
+                <year>2018</year>
+                <type>Journal Articles</type>
+                <key>journals/neco/GaoC18</key>
+                <doi>10.1162/NECO_A_01124</doi>
+                <ee>https://doi.org/10.1162/neco_a_01124</ee>
+                <url>https://dblp.org/rec/journals/neco/GaoC18</url>
+            </info>
+            <url>URL#150616</url>
+        </hit>
+        <hit score="4" id="173930">
+            <info>
+                <authors>
+                    <author>Habib Shah</author>
+                    <author>Nasser Tairan</author>
+                    <author>Harish Garg</author>
+                    <author>Rozaida Ghazali</author>
+                </authors>
+                <title>A Quick Gbest Guided Artificial Bee Colony Algorithm for Stock Market Prices Prediction.</title>
+                <venue>Symmetry</venue>
+                <volume>10</volume>
+                <number>7</number>
+                <pages>292</pages>
+                <year>2018</year>
+                <type>Journal Articles</type>
+                <key>journals/symmetry/ShahTGG18</key>
+                <doi>10.3390/SYM10070292</doi>
+                <ee>https://doi.org/10.3390/sym10070292</ee>
+                <url>https://dblp.org/rec/journals/symmetry/ShahTGG18</url>
+            </info>
+            <url>URL#173930</url>
+        </hit>
+        <hit score="4" id="436453">
+            <info>
+                <authors>
+                    <author>Sainan Wang</author>
+                    <author>Luda Wang</author>
+                    <author>Shou-Ping Gao</author>
+                    <author>Zhi Bai</author>
+                </authors>
+                <title>Stock price prediction based on chaotic hybrid particle swarm optimisation-RBF neural network.</title>
+                <venue>IJADS</venue>
+                <volume>10</volume>
+                <number>2</number>
+                <pages>89-100</pages>
+                <year>2017</year>
+                <type>Journal Articles</type>
+                <key>journals/ijads/WangWGB17</key>
+                <doi>10.1504/IJADS.2017.10003822</doi>
+                <ee>https://doi.org/10.1504/IJADS.2017.10003822</ee>
+                <url>https://dblp.org/rec/journals/ijads/WangWGB17</url>
+            </info>
+            <url>URL#436453</url>
+        </hit>
+        <hit score="4" id="445877">
+            <info>
+                <authors>
+                    <author>Vipul Bag</author>
+                    <author>Uday V. Kulkarni</author>
+                </authors>
+                <title>Stock Price Trend Prediction and Recommendation using Cognitive Process.</title>
+                <venue>IJRSDA</venue>
+                <volume>4</volume>
+                <number>2</number>
+                <pages>36-48</pages>
+                <year>2017</year>
+                <type>Journal Articles</type>
+                <key>journals/ijrsda/BagK17</key>
+                <doi>10.4018/IJRSDA.2017040103</doi>
+                <ee>https://doi.org/10.4018/IJRSDA.2017040103</ee>
+                <url>https://dblp.org/rec/journals/ijrsda/BagK17</url>
+            </info>
+            <url>URL#445877</url>
+        </hit>
+        <hit score="4" id="453704">
+            <info>
+                <authors>
+                    <author>Meryem Ouahilal</author>
+                    <author>Mohammed El Mohajir</author>
+                    <author>Mohamed Chahhou</author>
+                    <author>Badr Eddine El Mohajir</author>
+                </authors>
+                <title>A novel hybrid model based on Hodrick-Prescott filter and support vector regression algorithm for optimizing stock market price prediction.</title>
+                <venue>J. Big Data</venue>
+                <volume>4</volume>
+                <pages>31</pages>
+                <year>2017</year>
+                <type>Journal Articles</type>
+                <key>journals/jbd/OuahilalMCM17</key>
+                <doi>10.1186/S40537-017-0092-5</doi>
+                <ee>https://doi.org/10.1186/s40537-017-0092-5</ee>
+                <url>https://dblp.org/rec/journals/jbd/OuahilalMCM17</url>
+            </info>
+            <url>URL#453704</url>
+        </hit>
+        <hit score="4" id="456972">
+            <info>
+                <authors>
+                    <author>Lock Siew Han</author>
+                    <author>Md. Jan Nordin</author>
+                </authors>
+                <title>Integrated Multiple Linear Regression-One Rule Classification Model for the Prediction of Stock Price Trend.</title>
+                <venue>JCS</venue>
+                <volume>13</volume>
+                <number>9</number>
+                <pages>422-429</pages>
+                <year>2017</year>
+                <type>Journal Articles</type>
+                <key>journals/jcsci/HanN17</key>
+                <doi>10.3844/JCSSP.2017.422.429</doi>
+                <ee>https://doi.org/10.3844/jcssp.2017.422.429</ee>
+                <url>https://dblp.org/rec/journals/jcsci/HanN17</url>
+            </info>
+            <url>URL#456972</url>
+        </hit>
+        <hit score="4" id="514116">
+            <info>
+                <authors>
+                    <author>Hana Alostad</author>
+                    <author>Hasan Davulcu</author>
+                </authors>
+                <title>Directional prediction of stock prices using breaking news on Twitter.</title>
+                <venue>Web Intelligence</venue>
+                <volume>15</volume>
+                <number>1</number>
+                <pages>1-17</pages>
+                <year>2017</year>
+                <type>Journal Articles</type>
+                <key>journals/wias/AlostadD17</key>
+                <doi>10.3233/WEB-170349</doi>
+                <ee>https://doi.org/10.3233/WEB-170349</ee>
+                <url>https://dblp.org/rec/journals/wias/AlostadD17</url>
+            </info>
+            <url>URL#514116</url>
+        </hit>
+        <hit score="4" id="739332">
+            <info>
+                <authors>
+                    <author>Rajashree Dash</author>
+                    <author>Pradipta Kishore Dash</author>
+                </authors>
+                <title>Efficient stock price prediction using a Self Evolving Recurrent Neuro-Fuzzy Inference System optimized through a Modified technique.</title>
+                <venue>Expert Syst. Appl.</venue>
+                <volume>52</volume>
+                <pages>75-90</pages>
+                <year>2016</year>
+                <type>Journal Articles</type>
+                <key>journals/eswa/DashD16</key>
+                <doi>10.1016/J.ESWA.2016.01.016</doi>
+                <ee>https://doi.org/10.1016/j.eswa.2016.01.016</ee>
+                <url>https://dblp.org/rec/journals/eswa/DashD16</url>
+            </info>
+            <url>URL#739332</url>
+        </hit>
+        <hit score="4" id="739392">
+            <info>
+                <authors>
+                    <author>Mustafa Göçken</author>
+                    <author>Mehmet Özçalici</author>
+                    <author>Asli Boru</author>
+                    <author>Ayse Tugba Dosdogru</author>
+                </authors>
+                <title>Integrating metaheuristics and Artificial Neural Networks for improved stock price prediction.</title>
+                <venue>Expert Syst. Appl.</venue>
+                <volume>44</volume>
+                <pages>320-331</pages>
+                <year>2016</year>
+                <type>Journal Articles</type>
+                <key>journals/eswa/GockenOBD16</key>
+                <doi>10.1016/J.ESWA.2015.09.029</doi>
+                <ee>https://doi.org/10.1016/j.eswa.2015.09.029</ee>
+                <url>https://dblp.org/rec/journals/eswa/GockenOBD16</url>
+            </info>
+            <url>URL#739392</url>
+        </hit>
+        <hit score="4" id="744552">
+            <info>
+                <authors>
+                    <author>Pinar Tüfekçi</author>
+                </authors>
+                <title>Classification-based prediction models for stock price index movement.</title>
+                <venue>Intell. Data Anal.</venue>
+                <volume>20</volume>
+                <number>2</number>
+                <pages>357-376</pages>
+                <year>2016</year>
+                <type>Journal Articles</type>
+                <key>journals/ida/Tufekci16</key>
+                <doi>10.3233/IDA-160809</doi>
+                <ee>https://doi.org/10.3233/IDA-160809</ee>
+                <url>https://dblp.org/rec/journals/ida/Tufekci16</url>
+            </info>
+            <url>URL#744552</url>
+        </hit>
+        <hit score="4" id="800674">
+            <info>
+                <authors>
+                    <author>Mohammad Sultan Mahmud</author>
+                    <author>Phayung Meesad</author>
+                </authors>
+                <title>An innovative recurrent error-based neuro-fuzzy system with momentum for stock price prediction.</title>
+                <venue>Soft Comput.</venue>
+                <volume>20</volume>
+                <number>10</number>
+                <pages>4173-4191</pages>
+                <year>2016</year>
+                <type>Journal Articles</type>
+                <key>journals/soco/MahmudM16</key>
+                <doi>10.1007/S00500-015-1752-Z</doi>
+                <ee>https://doi.org/10.1007/s00500-015-1752-z</ee>
+                <url>https://dblp.org/rec/journals/soco/MahmudM16</url>
+            </info>
+            <url>URL#800674</url>
+        </hit>
+        <hit score="4" id="1034562">
+            <info>
+                <authors>
+                    <author>Michel Ballings</author>
+                    <author>Dirk Van den Poel</author>
+                    <author>Nathalie Hespeels</author>
+                    <author>Ruben Gryp</author>
+                </authors>
+                <title>Evaluating multiple classifiers for stock price direction prediction.</title>
+                <venue>Expert Syst. Appl.</venue>
+                <volume>42</volume>
+                <number>20</number>
+                <pages>7046-7056</pages>
+                <year>2015</year>
+                <type>Journal Articles</type>
+                <key>journals/eswa/BallingsPHG15</key>
+                <doi>10.1016/J.ESWA.2015.05.013</doi>
+                <ee>https://doi.org/10.1016/j.eswa.2015.05.013</ee>
+                <url>https://dblp.org/rec/journals/eswa/BallingsPHG15</url>
+            </info>
+            <url>URL#1034562</url>
+        </hit>
+        <hit score="4" id="1035771">
+            <info>
+                <authors>
+                    <author>Wenping Zhang</author>
+                    <author>Chunping Li</author>
+                    <author>Yunming Ye</author>
+                    <author>Wenjie Li</author>
+                    <author>Eric W. T. Ngai</author>
+                </authors>
+                <title>Dynamic Business Network Analysis for Correlated Stock Price Movement Prediction.</title>
+                <venue>IEEE Intelligent Systems</venue>
+                <volume>30</volume>
+                <number>2</number>
+                <pages>26-33</pages>
+                <year>2015</year>
+                <type>Journal Articles</type>
+                <key>journals/expert/ZhangLYLN15</key>
+                <doi>10.1109/MIS.2015.25</doi>
+                <ee>https://doi.org/10.1109/MIS.2015.25</ee>
+                <url>https://dblp.org/rec/journals/expert/ZhangLYLN15</url>
+            </info>
+            <url>URL#1035771</url>
+        </hit>
+        <hit score="4" id="1050246">
+            <info>
+                <authors>
+                    <author>Bai-qing Sun</author>
+                    <author>Haifeng Guo</author>
+                    <author>Hamid Reza Karimi</author>
+                    <author>Yuanjing Ge</author>
+                    <author>Shan Xiong</author>
+                </authors>
+                <title>Prediction of stock index futures prices based on fuzzy sets and multivariate fuzzy time series.</title>
+                <venue>Neurocomputing</venue>
+                <volume>151</volume>
+                <pages>1528-1536</pages>
+                <year>2015</year>
+                <type>Journal Articles</type>
+                <key>journals/ijon/SunGKGX15</key>
+                <doi>10.1016/J.NEUCOM.2014.09.018</doi>
+                <ee>https://doi.org/10.1016/j.neucom.2014.09.018</ee>
+                <url>https://dblp.org/rec/journals/ijon/SunGKGX15</url>
+            </info>
+            <url>URL#1050246</url>
+        </hit>
+        <hit score="4" id="1326322">
+            <info>
+                <authors>
+                    <author>Payam Hanafizadeh</author>
+                    <author>Ahmad Hashemi</author>
+                </authors>
+                <title>The Effect of Behavioral Factors on Stock Price Prediction using Generalized Regression and Backpropagation Neural Networks Models.</title>
+                <venue>IJBIR</venue>
+                <volume>5</volume>
+                <number>4</number>
+                <pages>44-57</pages>
+                <year>2014</year>
+                <type>Journal Articles</type>
+                <key>journals/ijbir/HanafizadehH14</key>
+                <doi>10.4018/IJBIR.2014100104</doi>
+                <ee>https://doi.org/10.4018/IJBIR.2014100104</ee>
+                <url>https://dblp.org/rec/journals/ijbir/HanafizadehH14</url>
+            </info>
+            <url>URL#1326322</url>
+        </hit>
+        <hit score="4" id="1330293">
+            <info>
+                <authors>
+                    <author>Asadullah Al Galib</author>
+                    <author>Mahbub Alam</author>
+                    <author>Rashedur M. Rahman</author>
+                </authors>
+                <title>Prediction of stock price based on hidden Markov model and nearest neighbour algorithm.</title>
+                <venue>IJIDS</venue>
+                <volume>6</volume>
+                <number>3</number>
+                <pages>262-292</pages>
+                <year>2014</year>
+                <type>Journal Articles</type>
+                <key>journals/ijids/GalibAR14</key>
+                <doi>10.1504/IJIDS.2014.064446</doi>
+                <ee>https://doi.org/10.1504/IJIDS.2014.064446</ee>
+                <url>https://dblp.org/rec/journals/ijids/GalibAR14</url>
+            </info>
+            <url>URL#1330293</url>
+        </hit>
+        <hit score="4" id="1336499">
+            <info>
+                <authors>
+                    <author>Enric Junqué de Fortuny</author>
+                    <author>Tom De Smedt</author>
+                    <author>David Martens</author>
+                    <author>Walter Daelemans</author>
+                </authors>
+                <title>Evaluating and understanding text-based stock price prediction models.</title>
+                <venue>Inf. Process. Manage.</venue>
+                <volume>50</volume>
+                <number>2</number>
+                <pages>426-441</pages>
+                <year>2014</year>
+                <type>Journal Articles</type>
+                <key>journals/ipm/FortunySMD14</key>
+                <doi>10.1016/J.IPM.2013.12.002</doi>
+                <ee>https://doi.org/10.1016/j.ipm.2013.12.002</ee>
+                <url>https://dblp.org/rec/journals/ipm/FortunySMD14</url>
+            </info>
+            <url>URL#1336499</url>
+        </hit>
+        <hit score="4" id="1339574">
+            <info>
+                <authors>
+                    <author>Ayodele Ariyo Adebiyi</author>
+                    <author>Aderemi Oluyinka Adewumi</author>
+                    <author>Charles K. Ayo</author>
+                </authors>
+                <title>Comparison of ARIMA and Artificial Neural Networks Models for Stock Price Prediction.</title>
+                <venue>J. Applied Mathematics</venue>
+                <volume>2014</volume>
+                <pages>614342:1-614342:7</pages>
+                <year>2014</year>
+                <type>Journal Articles</type>
+                <key>journals/jam/AdebiyiAA14</key>
+                <doi>10.1155/2014/614342</doi>
+                <ee>https://doi.org/10.1155/2014/614342</ee>
+                <url>https://dblp.org/rec/journals/jam/AdebiyiAA14</url>
+            </info>
+            <url>URL#1339574</url>
+        </hit>
+        <hit score="4" id="1591639">
+            <info>
+                <authors>
+                    <author>Michael Hagenau</author>
+                    <author>Michael Liebmann</author>
+                    <author>Dirk Neumann 0001</author>
+                </authors>
+                <title>Automated news reading - Stock price prediction based on financial news using context-capturing features.</title>
+                <venue>Decision Support Systems</venue>
+                <volume>55</volume>
+                <number>3</number>
+                <pages>685-697</pages>
+                <year>2013</year>
+                <type>Journal Articles</type>
+                <key>journals/dss/HagenauLN13</key>
+                <doi>10.1016/J.DSS.2013.02.006</doi>
+                <ee>https://doi.org/10.1016/j.dss.2013.02.006</ee>
+                <url>https://dblp.org/rec/journals/dss/HagenauLN13</url>
+            </info>
+            <url>URL#1591639</url>
+        </hit>
+        <hit score="4" id="1592341">
+            <info>
+                <authors>
+                    <author>Kanghee Park</author>
+                    <author>Hyunjung Shin</author>
+                </authors>
+                <title>Stock price prediction based on a complex interrelation network of economic factors.</title>
+                <venue>Eng. Appl. of AI</venue>
+                <volume>26</volume>
+                <number>5-6</number>
+                <pages>1550-1561</pages>
+                <year>2013</year>
+                <type>Journal Articles</type>
+                <key>journals/eaai/ParkS13</key>
+                <doi>10.1016/J.ENGAPPAI.2013.01.009</doi>
+                <ee>https://doi.org/10.1016/j.engappai.2013.01.009</ee>
+                <url>https://dblp.org/rec/journals/eaai/ParkS13</url>
+            </info>
+            <url>URL#1592341</url>
+        </hit>
+        <hit score="4" id="1615384">
+            <info>
+                <authors>
+                    <author>M. H. Fazel Zarandi</author>
+                    <author>Marzie Zarinbal</author>
+                    <author>N. Ghanbari</author>
+                    <author>I. Burhan Türksen</author>
+                </authors>
+                <title>A new fuzzy functions model tuned by hybridizing imperialist competitive algorithm and simulated annealing. Application - Stock price prediction.</title>
+                <venue>Inf. Sci.</venue>
+                <volume>222</volume>
+                <pages>213-228</pages>
+                <year>2013</year>
+                <type>Journal Articles</type>
+                <key>journals/isci/ZarandiZGT13</key>
+                <doi>10.1016/J.INS.2012.08.002</doi>
+                <ee>https://doi.org/10.1016/j.ins.2012.08.002</ee>
+                <url>https://dblp.org/rec/journals/isci/ZarandiZGT13</url>
+            </info>
+            <url>URL#1615384</url>
+        </hit>
+        <hit score="4" id="1841111">
+            <info>
+                <authors>
+                    <author>Eisuke Kita</author>
+                    <author>Masaaki Harada</author>
+                    <author>Takao Mizuno</author>
+                </authors>
+                <title>Application of Bayesian Network to stock price prediction.</title>
+                <venue>Artif. Intell. Research</venue>
+                <volume>1</volume>
+                <number>2</number>
+                <pages>171-184</pages>
+                <year>2012</year>
+                <type>Journal Articles</type>
+                <key>journals/aires/KitaHM12</key>
+                <doi>10.5430/AIR.V1N2P171</doi>
+                <ee>https://doi.org/10.5430/air.v1n2p171</ee>
+                <url>https://dblp.org/rec/journals/aires/KitaHM12</url>
+            </info>
+            <url>URL#1841111</url>
+        </hit>
+        <hit score="4" id="1844538">
+            <info>
+                <authors>
+                    <author>Chih-Feng Liu</author>
+                    <author>Chi-Yuan Yeh</author>
+                    <author>Shie-Jue Lee</author>
+                </authors>
+                <title>Application of type-2 neuro-fuzzy modeling in stock price prediction.</title>
+                <venue>Appl. Soft Comput.</venue>
+                <volume>12</volume>
+                <number>4</number>
+                <pages>1348-1358</pages>
+                <year>2012</year>
+                <type>Journal Articles</type>
+                <key>journals/asc/LiuYL12</key>
+                <doi>10.1016/J.ASOC.2011.11.028</doi>
+                <ee>https://doi.org/10.1016/j.asoc.2011.11.028</ee>
+                <url>https://dblp.org/rec/journals/asc/LiuYL12</url>
+            </info>
+            <url>URL#1844538</url>
+        </hit>
+        <hit score="4" id="1876159">
+            <info>
+                <authors>
+                    <author>M. H. Fazel Zarandi</author>
+                    <author>Esmaeil Hadavandi</author>
+                    <author>I. Burhan Türksen</author>
+                </authors>
+                <title>A hybrid fuzzy intelligent agent-based system for stock price prediction.</title>
+                <venue>Int. J. Intell. Syst.</venue>
+                <volume>27</volume>
+                <number>11</number>
+                <pages>947-969</pages>
+                <year>2012</year>
+                <type>Journal Articles</type>
+                <key>journals/ijis/ZarandiHT12</key>
+                <doi>10.1002/INT.21554</doi>
+                <ee>https://doi.org/10.1002/int.21554</ee>
+                <url>https://dblp.org/rec/journals/ijis/ZarandiHT12</url>
+            </info>
+            <url>URL#1876159</url>
+        </hit>
+        <hit score="4" id="2093455">
+            <info>
+                <authors>
+                    <author>Jiuzhen Liang</author>
+                    <author>Weiguo Song</author>
+                    <author>Mei Wang</author>
+                </authors>
+                <title>Stock Price Prediction Based on Procedural Neural Networks.</title>
+                <venue>Adv. Artificial Neural Systems</venue>
+                <volume>2011</volume>
+                <pages>814769:1-814769:11</pages>
+                <year>2011</year>
+                <type>Journal Articles</type>
+                <key>journals/aans/LiangSW11</key>
+                <doi>10.1155/2011/814769</doi>
+                <ee>https://doi.org/10.1155/2011/814769</ee>
+                <url>https://dblp.org/rec/journals/aans/LiangSW11</url>
+            </info>
+            <url>URL#2093455</url>
+        </hit>
+        <hit score="4" id="2116393">
+            <info>
+                <authors>
+                    <author>Ling-Feng Hsieh</author>
+                    <author>Su-Chen Hsieh</author>
+                    <author>Pei-Hao Tai</author>
+                </authors>
+                <title>Enhanced stock price variation prediction via DOE and BPNN-based optimization.</title>
+                <venue>Expert Syst. Appl.</venue>
+                <volume>38</volume>
+                <number>11</number>
+                <pages>14178-14184</pages>
+                <year>2011</year>
+                <type>Journal Articles</type>
+                <key>journals/eswa/HsiehHT11</key>
+                <doi>10.1016/J.ESWA.2011.04.229</doi>
+                <ee>https://doi.org/10.1016/j.eswa.2011.04.229</ee>
+                <url>https://dblp.org/rec/journals/eswa/HsiehHT11</url>
+            </info>
+            <url>URL#2116393</url>
+        </hit>
+        <hit score="4" id="2116399">
+            <info>
+                <authors>
+                    <author>Chih-Ming Hsu</author>
+                </authors>
+                <title>A hybrid procedure for stock price prediction by integrating self-organizing map and genetic programming.</title>
+                <venue>Expert Syst. Appl.</venue>
+                <volume>38</volume>
+                <number>11</number>
+                <pages>14026-14036</pages>
+                <year>2011</year>
+                <type>Journal Articles</type>
+                <key>journals/eswa/Hsu11d</key>
+                <doi>10.1016/J.ESWA.2011.04.210</doi>
+                <ee>https://doi.org/10.1016/j.eswa.2011.04.210</ee>
+                <url>https://dblp.org/rec/journals/eswa/Hsu11d</url>
+            </info>
+            <url>URL#2116399</url>
+        </hit>
+        <hit score="4" id="2124110">
+            <info>
+                <authors>
+                    <author>Vicky Arnold</author>
+                    <author>Jean C. Bedard</author>
+                    <author>Jillian R. Phillips</author>
+                    <author>Steve G. Sutton</author>
+                </authors>
+                <title>Do section 404 disclosures affect investors&apos; perceptions of information systems reliability and stock price predictions?</title>
+                <venue>Int. J. Accounting Inf. Systems</venue>
+                <volume>12</volume>
+                <number>4</number>
+                <pages>243-258</pages>
+                <year>2011</year>
+                <type>Journal Articles</type>
+                <key>journals/ijais/ArnoldBPS11</key>
+                <doi>10.1016/J.ACCINF.2011.05.001</doi>
+                <ee>https://doi.org/10.1016/j.accinf.2011.05.001</ee>
+                <url>https://dblp.org/rec/journals/ijais/ArnoldBPS11</url>
+            </info>
+            <url>URL#2124110</url>
+        </hit>
+        <hit score="4" id="2174330">
+            <info>
+                <authors>
+                    <author>Ming-Chih Lin</author>
+                    <author>Anthony J. T. Lee</author>
+                    <author>Rung-Tai Kao</author>
+                    <author>Kuo-Tay Chen</author>
+                </authors>
+                <title>Stock price movement prediction using representative prototypes of financial reports.</title>
+                <venue>ACM Trans. Management Inf. Syst.</venue>
+                <volume>2</volume>
+                <number>3</number>
+                <pages>19:1-19:18</pages>
+                <year>2011</year>
+                <type>Journal Articles</type>
+                <key>journals/tmis/LinLKC11</key>
+                <doi>10.1145/2019618.2019625</doi>
+                <ee>https://doi.org/10.1145/2019618.2019625</ee>
+                <url>https://dblp.org/rec/journals/tmis/LinLKC11</url>
+            </info>
+            <url>URL#2174330</url>
+        </hit>
+        <hit score="4" id="2349087">
+            <info>
+                <authors>
+                    <author>Robert P. Schumaker</author>
+                    <author>Hsinchun Chen</author>
+                </authors>
+                <title>A Discrete Stock Price Prediction Engine Based on Financial News.</title>
+                <venue>IEEE Computer</venue>
+                <volume>43</volume>
+                <number>1</number>
+                <pages>51-56</pages>
+                <year>2010</year>
+                <type>Journal Articles</type>
+                <key>journals/computer/SchumakerC10</key>
+                <doi>10.1109/MC.2010.2</doi>
+                <ee>https://doi.org/10.1109/MC.2010.2</ee>
+                <url>https://dblp.org/rec/journals/computer/SchumakerC10</url>
+            </info>
+            <url>URL#2349087</url>
+        </hit>
+        <hit score="4" id="2357506">
+            <info>
+                <authors>
+                    <author>Chi-Jie Lu</author>
+                </authors>
+                <title>Integrating independent component analysis-based denoising scheme with neural network for stock price prediction.</title>
+                <venue>Expert Syst. Appl.</venue>
+                <volume>37</volume>
+                <number>10</number>
+                <pages>7056-7064</pages>
+                <year>2010</year>
+                <type>Journal Articles</type>
+                <key>journals/eswa/Lu10</key>
+                <doi>10.1016/J.ESWA.2010.03.012</doi>
+                <ee>https://doi.org/10.1016/j.eswa.2010.03.012</ee>
+                <url>https://dblp.org/rec/journals/eswa/Lu10</url>
+            </info>
+            <url>URL#2357506</url>
+        </hit>
+        <hit score="4" id="2578699">
+            <info>
+                <authors>
+                    <author>Xiaowei Lin</author>
+                    <author>Zehong Yang</author>
+                    <author>Yixu Song</author>
+                </authors>
+                <title>Short-term stock price prediction based on echo state networks.</title>
+                <venue>Expert Syst. Appl.</venue>
+                <volume>36</volume>
+                <number>3</number>
+                <pages>7313-7317</pages>
+                <year>2009</year>
+                <type>Journal Articles</type>
+                <key>journals/eswa/LinYS09</key>
+                <doi>10.1016/J.ESWA.2008.09.049</doi>
+                <ee>https://doi.org/10.1016/j.eswa.2008.09.049</ee>
+                <url>https://dblp.org/rec/journals/eswa/LinYS09</url>
+            </info>
+            <url>URL#2578699</url>
+        </hit>
+        <hit score="4" id="2791167">
+            <info>
+                <authors>
+                    <author>Pei-Chann Chang</author>
+                    <author>Chen-Hao Liu</author>
+                </authors>
+                <title>A TSK type fuzzy rule based system for stock price prediction.</title>
+                <venue>Expert Syst. Appl.</venue>
+                <volume>34</volume>
+                <number>1</number>
+                <pages>135-144</pages>
+                <year>2008</year>
+                <type>Journal Articles</type>
+                <key>journals/eswa/ChangL08</key>
+                <doi>10.1016/J.ESWA.2006.08.020</doi>
+                <ee>https://doi.org/10.1016/j.eswa.2006.08.020</ee>
+                <url>https://dblp.org/rec/journals/eswa/ChangL08</url>
+            </info>
+            <url>URL#2791167</url>
+        </hit>
+        <hit score="4" id="2799826">
+            <info>
+                <authors>
+                    <author>Huseyin Ince</author>
+                    <author>Theodore B. Trafalis</author>
+                </authors>
+                <title>Short term forecasting with support vector machines and application to stock price prediction.</title>
+                <venue>Int. J. General Systems</venue>
+                <volume>37</volume>
+                <number>6</number>
+                <pages>677-687</pages>
+                <year>2008</year>
+                <type>Journal Articles</type>
+                <key>journals/ijgs/InceT08</key>
+                <doi>10.1080/03081070601068595</doi>
+                <ee>https://doi.org/10.1080/03081070601068595</ee>
+                <url>https://dblp.org/rec/journals/ijgs/InceT08</url>
+            </info>
+            <url>URL#2799826</url>
+        </hit>
+        <hit score="4" id="3489387">
+            <info>
+                <authors>
+                    <author>Myoung-Jong Kim</author>
+                    <author>Ingoo Han</author>
+                    <author>Kun Chang Lee</author>
+                </authors>
+                <title>Hybrid knowledge integration using the fuzzy genetic algorithm - prediction of the Korea stock price index.</title>
+                <venue>Int. Syst. in Accounting, Finance and Management</venue>
+                <volume>12</volume>
+                <number>1</number>
+                <pages>43-60</pages>
+                <year>2004</year>
+                <type>Journal Articles</type>
+                <key>journals/isafm/KimHL04</key>
+                <doi>10.1002/ISAF.240</doi>
+                <ee>https://doi.org/10.1002/isaf.240</ee>
+                <url>https://dblp.org/rec/journals/isafm/KimHL04</url>
+            </info>
+            <url>URL#3489387</url>
+        </hit>
+        <hit score="4" id="3713903">
+            <info>
+                <authors>
+                    <author>Yi-Fan Wang</author>
+                </authors>
+                <title>Predicting stock price using fuzzy grey prediction system.</title>
+                <venue>Expert Syst. Appl.</venue>
+                <volume>22</volume>
+                <number>1</number>
+                <pages>33-38</pages>
+                <year>2002</year>
+                <type>Journal Articles</type>
+                <key>journals/eswa/Wang02</key>
+                <doi>10.1016/S0957-4174(01)00047-1</doi>
+                <ee>https://doi.org/10.1016/S0957-4174(01)00047-1</ee>
+                <url>https://dblp.org/rec/journals/eswa/Wang02</url>
+            </info>
+            <url>URL#3713903</url>
+        </hit>
+        <hit score="4" id="3808290">
+            <info>
+                <authors>
+                    <author>William Leigh</author>
+                    <author>Mario Paz</author>
+                    <author>Noemi M. Paz</author>
+                    <author>Russell L. Purvis</author>
+                </authors>
+                <title>A pattern recognition approach to the prediction of price increases in the New York Stock Exchange Composite Index.</title>
+                <venue>Informatica</venue>
+                <volume>25</volume>
+                <number>2</number>
+                <year>2001</year>
+                <type>Journal Articles</type>
+                <key>journals/informaticaSI/LeighPPP01</key>
+                <url>https://dblp.org/rec/journals/informaticaSI/LeighPPP01</url>
+            </info>
+            <url>URL#3808290</url>
+        </hit>
+        <hit score="4" id="4086251">
+            <info>
+                <authors>
+                    <author>Kazuhiro Kohara</author>
+                    <author>Tsutomu Ishikawa</author>
+                    <author>Yoshimi Fukuhara</author>
+                    <author>Yukihiro Nakamura</author>
+                </authors>
+                <title>Stock Price Prediction Using Prior Knowledge and Neural Networks.</title>
+                <venue>Int. Syst. in Accounting, Finance and Management</venue>
+                <volume>6</volume>
+                <number>1</number>
+                <pages>11-22</pages>
+                <year>1997</year>
+                <type>Journal Articles</type>
+                <key>journals/isafm/KoharaIFN97</key>
+                <doi>10.1002/(SICI)1099-1174(199703)6:1&lt;11::AID-ISAF115&gt;3.0.CO;2-3</doi>
+                <ee>https://doi.org/10.1002/(SICI)1099-1174(199703)6:1&lt;11::AID-ISAF115&gt;3.0.CO;2-3</ee>
+                <url>https://dblp.org/rec/journals/isafm/KoharaIFN97</url>
+            </info>
+            <url>URL#4086251</url>
+        </hit>
+        <hit score="4" id="4265113">
+            <info>
+                <authors>
+                    <author>Gia-Shuh Jang</author>
+                    <author>Feipei Lai</author>
+                    <author>Bor-Wei Jiang</author>
+                    <author>Tai-Ming Parng</author>
+                    <author>Li-Hua Chien</author>
+                </authors>
+                <title>Intelligent stock trading system with price trend prediction and reversal recognition using dual-module neural networks.</title>
+                <venue>Appl. Intell.</venue>
+                <volume>3</volume>
+                <number>3</number>
+                <pages>225-248</pages>
+                <year>1993</year>
+                <type>Journal Articles</type>
+                <key>journals/apin/JangLJPC93</key>
+                <doi>10.1007/BF00871939</doi>
+                <ee>https://doi.org/10.1007/BF00871939</ee>
+                <url>https://dblp.org/rec/journals/apin/JangLJPC93</url>
+            </info>
+            <url>URL#4265113</url>
+        </hit>
+        <hit score="4" id="4365314">
+            <info>
+                <authors>
+                    <author>Eberhard Schöneburg</author>
+                </authors>
+                <title>Stock price prediction using neural networks - A project report.</title>
+                <venue>Neurocomputing</venue>
+                <volume>2</volume>
+                <number>1</number>
+                <pages>17-27</pages>
+                <year>1990</year>
+                <type>Journal Articles</type>
+                <key>journals/ijon/Schoneburg90</key>
+                <doi>10.1016/0925-2312(90)90013-H</doi>
+                <ee>https://doi.org/10.1016/0925-2312(90)90013-H</ee>
+                <url>https://dblp.org/rec/journals/ijon/Schoneburg90</url>
+            </info>
+            <url>URL#4365314</url>
+        </hit>
+    </hits>
+</result>

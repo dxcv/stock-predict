@@ -9,7 +9,6 @@ import pandas as pd
 The RSI (Relative Strength Index) is a price-following oscillator that ranges between 0 and 100.
 '''
 
-
 def rsi(data, period=14, smooth=3):
 
     # Get the difference in price from previous step

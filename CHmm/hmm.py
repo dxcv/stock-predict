@@ -1,10 +1,8 @@
-
 import math
 
 import numpy as np
 import matplotlib.pyplot as plt
 import utils
-
 
 COLORS = ["r", "orange", "b", "g", "darkgreen"]
 
@@ -33,8 +31,8 @@ class Hmm(object):
 
         # the emission probabilities are multinomials
         self.eta = np.matrix([[abs(math.cos(i + 1)) if i == j else (1 - abs(math.cos(i + 1))) \
-                               / (self.obs_states - 1) for j in range(self.obs_states)]
-                for i in range(self.K)])
+                                                                   / (self.obs_states - 1) for j in range(self.obs_states)]
+                              for i in range(self.K)])
 
         # store the initial value
         self.a0 = self.a
@@ -73,8 +71,8 @@ class Hmm(object):
                 log_alpha_star = np.amax(self.log_alpha[t, :])
                 for q in self.states:
                     self.log_alpha[t + 1, q] = self.log_b[t + 1, q] + log_alpha_star + \
-                        math.log(sum((math.exp(self.log_alpha[t, q0] -
-                                               log_alpha_star) * self.a[q0, q])for q0 in self.states))
+                                               math.log(sum((math.exp(self.log_alpha[t, q0] -
+                                                                      log_alpha_star) * self.a[q0, q]) for q0 in self.states))
         # rescaled case
         elif self.hmm_type == 'rescaled':
             self.alpha = np.zeros((self.T, self.K))
@@ -146,11 +144,11 @@ class Hmm(object):
                     self.cond_proba[t, q] = math.exp(
                         self.log_alpha[t, q] + self.log_beta[t, q] - amax) / proba_sum
                 if t < self.T - 1:
-                   for q in self.states:
-                       for q1 in self.states:
+                    for q in self.states:
+                        for q1 in self.states:
                             self.joined_cond_proba[t, q, q1] = math.exp(
                                 self.log_alpha[t, q] + self.log_beta[t + 1, q1] - amax) \
-                                    * self.b[t + 1, q1] * self.a[q, q1] / proba_sum
+                                                               * self.b[t + 1, q1] * self.a[q, q1] / proba_sum
         elif self.hmm_type == 'rescaled':
             self.cond_proba = self.alpha * self.beta
             denom = self.cond_proba.sum(1)
@@ -159,9 +157,9 @@ class Hmm(object):
             denom = denom * self.scale_factor_beta
             denom = denom[:(self.T - 1), None, None]
             self.joined_cond_proba = self.alpha[:(self.T - 1), :, None] * self.beta[1:self.T, None, :] \
-                * np.asarray(self.a)[None, :, :] \
-                * self.b[1:self.T, :, None].transpose((0, 2, 1)) \
-                / denom
+                                     * np.asarray(self.a)[None, :, :] \
+                                     * self.b[1:self.T, :, None].transpose((0, 2, 1)) \
+                                     / denom
         else:
             raise RuntimeError("unknow type allowed log-scale or rescaled")
         return
@@ -179,30 +177,30 @@ class Hmm(object):
         return
 
     def __plot_states_bucket(self, data, T_max, title, prefix, suffix, plot_type, start, end):
-        f, axarr = plt.subplots(end-start,  sharex=True)
-        f.tight_layout() 
-        for i in range(end-start):
+        f, axarr = plt.subplots(end - start, sharex=True)
+        f.tight_layout()
+        for i in range(end - start):
             if plot_type == 'step':
                 axarr[i].step(range(T_max), data[:T_max, i],
-                     c=COLORS[i], label="State %d" % (start + i + 1))
+                              c=COLORS[i], label="State %d" % (start + i + 1))
             else:
                 axarr[i].plot(range(T_max), data[:T_max, i],
-                     c=COLORS[i], label="State %d" % (start + i + 1))
+                              c=COLORS[i], label="State %d" % (start + i + 1))
             axarr[i].legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
         f.subplots_adjust(hspace=0.2)
         lgd = plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
-        plt.title(title, y=(end-start + 0.8))
+        plt.title(title, y=(end - start + 0.8))
         plt.setp([a.get_xticklabels() for a in f.axes[:-1]], visible=False)
-        utils.save_figure('./img/hmm/',plt, prefix, suffix, lgd)
+        utils.save_figure('./img/hmm/', plt, prefix, suffix, lgd)
         return
-        
+
     def __plot_states(self, data, T_max, title, prefix, suffix, plot_type='plot'):
         if self.K <= 5:
             self.__plot_states_bucket(data, T_max, title, prefix, suffix, plot_type, 0, self.K)
         else:
-            for i in range( (self.K-1) // 5 + 1):
-                start = 5*i
-                end = min(self.K, 5*(i+1))
+            for i in range((self.K - 1) // 5 + 1):
+                start = 5 * i
+                end = min(self.K, 5 * (i + 1))
                 self.__plot_states_bucket(data, T_max, title, prefix, suffix, plot_type, start, end)
         return
 
@@ -237,14 +235,14 @@ class Hmm(object):
             self.a /= self.a.sum(1)[:, None]
             mean_cond_proba = self.cond_proba.sum(0)
             self.eta = (self.cond_proba[:, :, None] * self.data[:, None, :]).sum(0) / \
-                mean_cond_proba[:, None]
-            self.eta=np.fmax(self.eta, min_eta)
+                       mean_cond_proba[:, None]
+            self.eta = np.fmax(self.eta, min_eta)
             self.eta /= self.eta.sum(1)[:, None]
 
             # compute expected_complete_log_likelihood
             if compute_likelihood:
                 self.compute_proba()
-                llh_val=self.expected_complete_log_likelihood()
+                llh_val = self.expected_complete_log_likelihood()
                 self.llh.append(llh_val)
 
             # Check halt condition
@@ -254,79 +252,78 @@ class Hmm(object):
                 break
             if i == max_iter:
                 raise RuntimeError("max iteration reached")
-        self.iterations=i + 1
+        self.iterations = i + 1
         return
 
     # a simple helper function to print the parameters
-    def print_parameters(self, precision = 4):
+    def print_parameters(self, precision=4):
         np.set_printoptions(precision)
-        #print('EM converged in ', self.iterations, ' iterations')
-        #print('pi:', self.pi)
-        #print('a:', self.a)
-        #print('eta:', self.eta)
+        # print('EM converged in ', self.iterations, ' iterations')
+        # print('pi:', self.pi)
+        # print('a:', self.a)
+        # print('eta:', self.eta)
 
     # Q5 plot expected_complete_log_likelihood
     def plot_likelihood(self, prefix, suffix):
         plt.figure()
-        self.llh=np.asarray(self.llh)
-        N=len(self.llh)
-        plt.plot(range(1, (N + 1)), self.llh, c = COLORS[0])
+        self.llh = np.asarray(self.llh)
+        N = len(self.llh)
+        plt.plot(range(1, (N + 1)), self.llh, c=COLORS[0])
         plt.ylabel('log likelihood')
         plt.xlabel('EM iterations')
-        lgd=plt.legend(bbox_to_anchor = (1.05, 1), loc = 2, borderaxespad = 0.)
-        utils.save_figure('./img/hmm/',plt, prefix, suffix, lgd)
+        lgd = plt.legend(bbox_to_anchor=(1.05, 1), loc=2, borderaxespad=0.)
+        utils.save_figure('./img/hmm/', plt, prefix, suffix, lgd)
         return
-
 
     # Q7
     # Viterbi decoding algorithm to find the most probable path followed
     # by the latent variables Q to generate the observations u
     def compute_viterbi_path(self):
-        self.path=np.zeros(self.T)
-        self.max_index=np.zeros((self.T, self.K))
-        self.max_proba=np.zeros((self.T, self.K))
+        self.path = np.zeros(self.T)
+        self.max_index = np.zeros((self.T, self.K))
+        self.max_proba = np.zeros((self.T, self.K))
 
         if self.hmm_type == 'log-scale':
             # precompute the log
-            l_pi=np.log(self.pi)
-            l_a=np.log(self.a)
-            l_b=np.log(self.b)
+            l_pi = np.log(self.pi)
+            l_a = np.log(self.a)
+            l_b = np.log(self.b)
             # in log scale the max proba is the log of the max proba
-            self.max_proba[0, :]=l_pi + l_b[0, :]
+            self.max_proba[0, :] = l_pi + l_b[0, :]
 
             # Run Viterbi for t > 0
             for t in range(1, self.T):
                 for q in self.states:
-                    (self.max_proba[t, q], self.max_index[t - 1, q])=max(
+                    (self.max_proba[t, q], self.max_index[t - 1, q]) = max(
                         (self.max_proba[t - 1, q0] + l_a[q0, q] + l_b[t, q], q0) for q0 in self.states)
 
             # do backward induction
-            self.path[self.T - 1]=np.argmax(self.max_proba[self.T - 1, :])
+            self.path[self.T - 1] = np.argmax(self.max_proba[self.T - 1, :])
             for t in range(self.T - 2, -1, -1):
-                self.path[t]=self.max_index[t, int(self.path[t + 1])]
+                self.path[t] = self.max_index[t, int(self.path[t + 1])]
 
         elif self.hmm_type == 'rescaled':
-            self.scale_factor_viterbi=np.zeros(self.T)
+            self.scale_factor_viterbi = np.zeros(self.T)
 
             # Initialize base cases (t == 0)
-            self.max_proba[0, :]=self.pi * self.b[0, :]
-            self.scale_factor_viterbi[0]=self.max_proba[0, :].sum()
-            self.max_proba[0, :]=self.max_proba[0, :] / \
-                self.scale_factor_viterbi[0]
+            self.max_proba[0, :] = self.pi * self.b[0, :]
+            self.scale_factor_viterbi[0] = self.max_proba[0, :].sum()
+            self.max_proba[0, :] = self.max_proba[0, :] / \
+                                   self.scale_factor_viterbi[0]
 
             # Run Viterbi for t > 0
             for t in range(1, self.T):
                 for q in self.states:
-                    (self.max_proba[t, q], self.max_index[t - 1, q])=max(
-                        (self.max_proba[t - 1, q0] * self.a[q0, q] * self.b[t, q], q0) 
-                            for q0 in self.states)
-                self.scale_factor_viterbi[t]=self.max_proba[t, :].sum()
-                self.max_proba[t, :]=self.max_proba[t, :] / self.scale_factor_viterbi[t]
+                    (self.max_proba[t, q], self.max_index[t - 1, q]) = max(
+                        (self.max_proba[t - 1, q0] * self.a[q0, q] * self.b[t, q], q0)
+                        for q0 in self.states)
+                self.scale_factor_viterbi[t] = self.max_proba[t, :].sum()
+                self.max_proba[t, :] = self.max_proba[t, :] / self.scale_factor_viterbi[t]
 
             # do backward induction
-            self.path[self.T - 1]=np.argmax(self.max_proba[self.T - 1, :])
+            self.path[self.T - 1] = np.argmax(self.max_proba[self.T - 1, :])
             for t in range(self.T - 2, -1, -1):
-                self.path[t]=self.max_index[t, int(self.path[t + 1])]
+                self.path[t] = self.max_index[t, int(self.path[t + 1])]
         else:
             raise RuntimeError("unknow type allowed log-scale or rescaled")
         return

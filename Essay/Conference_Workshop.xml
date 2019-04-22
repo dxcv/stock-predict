@@ -1,0 +1,1450 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<result>
+    <query id="76041">stock price* prediction* :facetid:type:Conference_and_Workshop_Papers</query>
+    <status code="200">OK</status>
+    <time unit="msecs">4.98</time>
+    <completions total="1" computed="1" sent="1">
+        <c sc="76" dc="76" oc="76" id="14573110">:facetid:type:Conference_and_Workshop_Papers</c>
+    </completions>
+    <hits total="76" computed="76" sent="76" first="0">
+        <hit score="5" id="582371">
+            <info>
+                <authors>
+                    <author>Syeda Shabnam Hasan</author>
+                    <author>Rashida Rahman</author>
+                    <author>Noel Mannan</author>
+                    <author>Haymontee Khan</author>
+                    <author>Jebun Nahar Moni</author>
+                    <author>Rashedur M. Rahman</author>
+                </authors>
+                <title>Improved Stock Price Prediction by Integrating Data Mining Algorithms and Technical Indicators - A Case Study on Dhaka Stock Exchange.</title>
+                <venue>ICCCI</venue>
+                <pages>288-297</pages>
+                <year>2017</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/iccci/HasanRMKMR17</key>
+                <doi>10.1007/978-3-319-67074-4_28</doi>
+                <ee>https://doi.org/10.1007/978-3-319-67074-4_28</ee>
+                <url>https://dblp.org/rec/conf/iccci/HasanRMKMR17</url>
+            </info>
+            <url>URL#582371</url>
+        </hit>
+        <hit score="5" id="912637">
+            <info>
+                <authors>
+                    <author>Seungwoo Jeon</author>
+                    <author>Bonghee Hong</author>
+                    <author>Juhyeong Kim</author>
+                    <author>Hyun-jik Lee</author>
+                </authors>
+                <title>Stock Price Prediction based on Stock Big Data and Pattern Graph Analysis.</title>
+                <venue>IoTBD</venue>
+                <pages>223-231</pages>
+                <year>2016</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/iotbd/JeonHKL16</key>
+                <doi>10.5220/0005876102230231</doi>
+                <ee>https://doi.org/10.5220/0005876102230231</ee>
+                <url>https://dblp.org/rec/conf/iotbd/JeonHKL16</url>
+            </info>
+            <url>URL#912637</url>
+        </hit>
+        <hit score="5" id="1201430">
+            <info>
+                <authors>
+                    <author>Yauheniya Shynkevich</author>
+                    <author>T. Martin McGinnity</author>
+                    <author>Sonya A. Coleman</author>
+                    <author>Ammar Belatreche</author>
+                </authors>
+                <title>Stock price prediction based on stock-specific and sub-industry-specific news articles.</title>
+                <venue>IJCNN</venue>
+                <pages>1-8</pages>
+                <year>2015</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ijcnn/ShynkevichMCB15</key>
+                <doi>10.1109/IJCNN.2015.7280517</doi>
+                <ee>https://doi.org/10.1109/IJCNN.2015.7280517</ee>
+                <url>https://dblp.org/rec/conf/ijcnn/ShynkevichMCB15</url>
+            </info>
+            <url>URL#1201430</url>
+        </hit>
+        <hit score="5" id="2210043">
+            <info>
+                <authors>
+                    <author>Xiaodong Li 0007</author>
+                    <author>Chao Wang</author>
+                    <author>Jiawei Dong</author>
+                    <author>Feng Wang</author>
+                    <author>Xiaotie Deng</author>
+                    <author>Shanfeng Zhu</author>
+                </authors>
+                <title>Improving Stock Market Prediction by Integrating Both Market News and Stock Prices.</title>
+                <venue>DEXA</venue>
+                <pages>279-293</pages>
+                <year>2011</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/dexa/LiWDWDZ11</key>
+                <doi>10.1007/978-3-642-23091-2_24</doi>
+                <ee>https://doi.org/10.1007/978-3-642-23091-2_24</ee>
+                <url>https://dblp.org/rec/conf/dexa/LiWDWDZ11</url>
+            </info>
+            <url>URL#2210043</url>
+        </hit>
+        <hit score="5" id="2521190">
+            <info>
+                <authors>
+                    <author>Palaniappan Bagavathi Sivakumar</author>
+                    <author>V. P. Mohandas</author>
+                </authors>
+                <title>Performance Comparison of Attribute Set Reduction Algorithms in Stock Price Prediction - A Case Study on Indian Stock Data.</title>
+                <venue>SEMCCO</venue>
+                <pages>567-574</pages>
+                <year>2010</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/semcco/SivakumarM10</key>
+                <doi>10.1007/978-3-642-17563-3_66</doi>
+                <ee>https://doi.org/10.1007/978-3-642-17563-3_66</ee>
+                <url>https://dblp.org/rec/conf/semcco/SivakumarM10</url>
+            </info>
+            <url>URL#2521190</url>
+        </hit>
+        <hit score="5" id="2891909">
+            <info>
+                <authors>
+                    <author>Pritam Radheshyam Charkha</author>
+                </authors>
+                <title>Stock Price Prediction and Trend Prediction Using Neural Networks.</title>
+                <venue>ICETET</venue>
+                <pages>592-594</pages>
+                <year>2008</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icetet/Charkha08</key>
+                <doi>10.1109/ICETET.2008.223</doi>
+                <ee>https://doi.org/10.1109/ICETET.2008.223</ee>
+                <url>https://dblp.org/rec/conf/icetet/Charkha08</url>
+            </info>
+            <url>URL#2891909</url>
+        </hit>
+        <hit score="5" id="3095450">
+            <info>
+                <authors>
+                    <author>Monruthai Radeerom</author>
+                    <author>Chonawat Srisa-an</author>
+                    <author>M. L. Kulthon Kasemsan</author>
+                </authors>
+                <title>Stock Price Prediction Based on Neurofuzzy System for Thai Stock Index.</title>
+                <venue>IMECS</venue>
+                <pages>833-838</pages>
+                <year>2007</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/imecs/RadeeromSK07</key>
+                <url>https://dblp.org/rec/conf/imecs/RadeeromSK07</url>
+            </info>
+            <url>URL#3095450</url>
+        </hit>
+        <hit score="4" id="41652">
+            <info>
+                <authors>
+                    <author>Mu-Hui Yu</author>
+                    <author>Jheng-Long Wu</author>
+                </authors>
+                <title>CEAM - A Novel Approach Using Cycle Embeddings with Attention Mechanism for Stock Price Prediction.</title>
+                <venue>BigComp</venue>
+                <pages>1-4</pages>
+                <year>2019</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/bigcomp/YuW19</key>
+                <doi>10.1109/BIGCOMP.2019.8679218</doi>
+                <ee>https://doi.org/10.1109/BIGCOMP.2019.8679218</ee>
+                <url>https://dblp.org/rec/conf/bigcomp/YuW19</url>
+            </info>
+            <url>URL#41652</url>
+        </hit>
+        <hit score="4" id="44214">
+            <info>
+                <authors>
+                    <author>Jue Liu</author>
+                    <author>Zhuocheng Lu</author>
+                    <author>Wei Du</author>
+                </authors>
+                <title>Combining Enterprise Knowledge Graph and News Sentiment Analysis for Stock Price Prediction.</title>
+                <venue>HICSS</venue>
+                <pages>1-9</pages>
+                <year>2019</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/hicss/LiuLD19</key>
+                <ee>http://hdl.handle.net/10125/59565</ee>
+                <url>https://dblp.org/rec/conf/hicss/LiuLD19</url>
+            </info>
+            <url>URL#44214</url>
+        </hit>
+        <hit score="4" id="45084">
+            <info>
+                <authors>
+                    <author>Hyungbin Yun</author>
+                    <author>Ghudae Sim</author>
+                    <author>Junhee Seok</author>
+                </authors>
+                <title>Stock Prices Prediction using the Title of Newspaper Articles with Korean Natural Language Processing.</title>
+                <venue>ICAIIC</venue>
+                <pages>19-21</pages>
+                <year>2019</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icaiic/YunSS19</key>
+                <doi>10.1109/ICAIIC.2019.8668996</doi>
+                <ee>https://doi.org/10.1109/ICAIIC.2019.8668996</ee>
+                <url>https://dblp.org/rec/conf/icaiic/YunSS19</url>
+            </info>
+            <url>URL#45084</url>
+        </hit>
+        <hit score="4" id="200212">
+            <info>
+                <authors>
+                    <author>Yumo Xu</author>
+                    <author>Shay B. Cohen</author>
+                </authors>
+                <title>Stock Movement Prediction from Tweets and Historical Prices.</title>
+                <venue>ACL</venue>
+                <pages>1970-1979</pages>
+                <year>2018</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/acl/CohenX18</key>
+                <ee>https://aclanthology.info/papers/P18-1183/p18-1183</ee>
+                <url>https://dblp.org/rec/conf/acl/CohenX18</url>
+            </info>
+            <url>URL#200212</url>
+        </hit>
+        <hit score="4" id="200881">
+            <info>
+                <authors>
+                    <author>Hao Li</author>
+                    <author>Yanyan Shen</author>
+                    <author>Yanmin Zhu</author>
+                </authors>
+                <title>Stock Price Prediction Using Attention-based Multi-Input LSTM.</title>
+                <venue>ACML</venue>
+                <pages>454-469</pages>
+                <year>2018</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/acml/LiSZ18</key>
+                <ee>http://proceedings.mlr.press/v95/li18c.html</ee>
+                <url>https://dblp.org/rec/conf/acml/LiSZ18</url>
+            </info>
+            <url>URL#200881</url>
+        </hit>
+        <hit score="4" id="221188">
+            <info>
+                <authors>
+                    <author>Yingmei Chen</author>
+                    <author>Zhongyu Wei</author>
+                    <author>Xuanjing Huang</author>
+                </authors>
+                <title>Incorporating Corporation Relationship via Graph Convolutional Neural Networks for Stock Price Prediction.</title>
+                <venue>CIKM</venue>
+                <pages>1655-1658</pages>
+                <year>2018</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/cikm/ChenWH18</key>
+                <doi>10.1145/3269206.3269269</doi>
+                <ee>https://doi.org/10.1145/3269206.3269269</ee>
+                <url>https://dblp.org/rec/conf/cikm/ChenWH18</url>
+            </info>
+            <url>URL#221188</url>
+        </hit>
+        <hit score="4" id="251881">
+            <info>
+                <authors>
+                    <author>Tobias Endress</author>
+                    <author>Tony Gear</author>
+                </authors>
+                <title>&quot;Deliberated Intuition for Groups&quot; - An Explanatory Model for Crowd Predictions in the Domain of Stock-Price Forecasting.</title>
+                <venue>HICSS</venue>
+                <pages>1-8</pages>
+                <year>2018</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/hicss/EndressG18</key>
+                <ee>http://hdl.handle.net/10125/50403</ee>
+                <url>https://dblp.org/rec/conf/hicss/EndressG18</url>
+            </info>
+            <url>URL#251881</url>
+        </hit>
+        <hit score="4" id="278647">
+            <info>
+                <authors>
+                    <author>Bruce James Vanstone</author>
+                    <author>Adrian Gepp</author>
+                    <author>Geoff Harris</author>
+                </authors>
+                <title>The Effect of Sentiment on Stock Price Prediction.</title>
+                <venue>IEA/AIE</venue>
+                <pages>551-559</pages>
+                <year>2018</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ieaaie/VanstoneGH18</key>
+                <doi>10.1007/978-3-319-92058-0_53</doi>
+                <ee>https://doi.org/10.1007/978-3-319-92058-0_53</ee>
+                <url>https://dblp.org/rec/conf/ieaaie/VanstoneGH18</url>
+            </info>
+            <url>URL#278647</url>
+        </hit>
+        <hit score="4" id="301276">
+            <info>
+                <authors>
+                    <author>Xukuan Zhan</author>
+                    <author>Yuhua Li</author>
+                    <author>Ruixuan Li</author>
+                    <author>Xiwu Gu</author>
+                    <author>Olivier Habimana</author>
+                    <author>Haozhao Wang</author>
+                </authors>
+                <title>Stock Price Prediction Using Time Convolution Long Short-Term Memory Network.</title>
+                <venue>KSEM</venue>
+                <pages>461-468</pages>
+                <year>2018</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ksem/ZhanLLGHW18</key>
+                <doi>10.1007/978-3-319-99365-2_41</doi>
+                <ee>https://doi.org/10.1007/978-3-319-99365-2_41</ee>
+                <url>https://dblp.org/rec/conf/ksem/ZhanLLGHW18</url>
+            </info>
+            <url>URL#301276</url>
+        </hit>
+        <hit score="4" id="316180">
+            <info>
+                <authors>
+                    <author>Yang Liu</author>
+                    <author>Qingguo Zeng</author>
+                    <author>Huanrui Yang</author>
+                    <author>Adrian Carrio</author>
+                </authors>
+                <title>Stock Price Movement Prediction from Financial News with Deep Learning and Knowledge Graph Embedding.</title>
+                <venue>PKAW</venue>
+                <pages>102-113</pages>
+                <year>2018</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/pkaw/LiuZYC18</key>
+                <doi>10.1007/978-3-319-97289-3_8</doi>
+                <ee>https://doi.org/10.1007/978-3-319-97289-3_8</ee>
+                <url>https://dblp.org/rec/conf/pkaw/LiuZYC18</url>
+            </info>
+            <url>URL#316180</url>
+        </hit>
+        <hit score="4" id="330707">
+            <info>
+                <authors>
+                    <author>Mohammad Asiful Hossain</author>
+                    <author>Rezaul Karim</author>
+                    <author>Ruppa Thulasiram</author>
+                    <author>Neil D. B. Bruce</author>
+                    <author>Yang Wang</author>
+                </authors>
+                <title>Hybrid Deep Learning Model for Stock Price Prediction.</title>
+                <venue>SSCI</venue>
+                <pages>1837-1844</pages>
+                <year>2018</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ssci/HossainKTBW18</key>
+                <doi>10.1109/SSCI.2018.8628641</doi>
+                <ee>https://doi.org/10.1109/SSCI.2018.8628641</ee>
+                <url>https://dblp.org/rec/conf/ssci/HossainKTBW18</url>
+            </info>
+            <url>URL#330707</url>
+        </hit>
+        <hit score="4" id="537313">
+            <info>
+                <authors>
+                    <author>Jian Liu</author>
+                    <author>Yubo Chen 0001</author>
+                    <author>Kang Liu 0001</author>
+                    <author>Jun Zhao 0001</author>
+                </authors>
+                <title>Attention-Based Event Relevance Model for Stock Price Movement Prediction.</title>
+                <venue>CCKS</venue>
+                <pages>37-49</pages>
+                <year>2017</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ccks/LiuC0Z17</key>
+                <doi>10.1007/978-981-10-7359-5_5</doi>
+                <ee>https://doi.org/10.1007/978-981-10-7359-5_5</ee>
+                <url>https://dblp.org/rec/conf/ccks/LiuC0Z17</url>
+            </info>
+            <url>URL#537313</url>
+        </hit>
+        <hit score="4" id="576888">
+            <info>
+                <authors>
+                    <author>Deepthi Praveenlal Kuttichira</author>
+                    <author>E. A. Gopalakrishnan</author>
+                    <author>Vijay Krishna Menon</author>
+                    <author>K. P. Soman</author>
+                </authors>
+                <title>Stock price prediction using dynamic mode decomposition.</title>
+                <venue>ICACCI</venue>
+                <pages>55-60</pages>
+                <year>2017</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icacci/KuttichiraGMS17</key>
+                <doi>10.1109/ICACCI.2017.8125816</doi>
+                <ee>https://doi.org/10.1109/ICACCI.2017.8125816</ee>
+                <url>https://dblp.org/rec/conf/icacci/KuttichiraGMS17</url>
+            </info>
+            <url>URL#576888</url>
+        </hit>
+        <hit score="4" id="577022">
+            <info>
+                <authors>
+                    <author>Sreelekshmy Selvin</author>
+                    <author>R. Vinayakumar</author>
+                    <author>E. A. Gopalakrishnan</author>
+                    <author>Vijay Krishna Menon</author>
+                    <author>K. P. Soman</author>
+                </authors>
+                <title>Stock price prediction using LSTM, RNN and CNN-sliding window model.</title>
+                <venue>ICACCI</venue>
+                <pages>1643-1647</pages>
+                <year>2017</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icacci/SelvinVGMS17</key>
+                <doi>10.1109/ICACCI.2017.8126078</doi>
+                <ee>https://doi.org/10.1109/ICACCI.2017.8126078</ee>
+                <url>https://dblp.org/rec/conf/icacci/SelvinVGMS17</url>
+            </info>
+            <url>URL#577022</url>
+        </hit>
+        <hit score="4" id="586506">
+            <info>
+                <authors>
+                    <author>Lin Lai</author>
+                    <author>Chang Li</author>
+                    <author>Wen Long</author>
+                </authors>
+                <title>A New Method for Stock Price Prediction Based on MRFs and SSVM.</title>
+                <venue>ICDM Workshops</venue>
+                <pages>818-823</pages>
+                <year>2017</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icdm/LaiLL17</key>
+                <doi>10.1109/ICDMW.2017.113</doi>
+                <ee>https://doi.org/10.1109/ICDMW.2017.113</ee>
+                <url>https://dblp.org/rec/conf/icdm/LaiLL17</url>
+            </info>
+            <url>URL#586506</url>
+        </hit>
+        <hit score="4" id="607347">
+            <info>
+                <authors>
+                    <author>David M. Q. Nelson</author>
+                    <author>Adriano C. M. Pereira</author>
+                    <author>Renato A. de Oliveira</author>
+                </authors>
+                <title>Stock market&apos;s price movement prediction with LSTM neural networks.</title>
+                <venue>IJCNN</venue>
+                <pages>1419-1426</pages>
+                <year>2017</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ijcnn/NelsonPO17</key>
+                <doi>10.1109/IJCNN.2017.7966019</doi>
+                <ee>https://doi.org/10.1109/IJCNN.2017.7966019</ee>
+                <url>https://dblp.org/rec/conf/ijcnn/NelsonPO17</url>
+            </info>
+            <url>URL#607347</url>
+        </hit>
+        <hit score="4" id="623203">
+            <info>
+                <authors>
+                    <author>Kei Nakagawa</author>
+                    <author>Mitsuyoshi Imamura</author>
+                    <author>Kenichi Yoshida</author>
+                </authors>
+                <title>Stock Price Prediction with Fluctuation Patterns Using Indexing Dynamic Time Warping and k* -Nearest Neighbors.</title>
+                <venue>JSAI-isAI Workshops</venue>
+                <pages>97-111</pages>
+                <year>2017</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/jsai/NakagawaIY17</key>
+                <doi>10.1007/978-3-319-93794-6_7</doi>
+                <ee>https://doi.org/10.1007/978-3-319-93794-6_7</ee>
+                <url>https://dblp.org/rec/conf/jsai/NakagawaIY17</url>
+            </info>
+            <url>URL#623203</url>
+        </hit>
+        <hit score="4" id="623705">
+            <info>
+                <authors>
+                    <author>Liheng Zhang</author>
+                    <author>Charu C. Aggarwal</author>
+                    <author>Guo-Jun Qi</author>
+                </authors>
+                <title>Stock Price Prediction via Discovering Multi-Frequency Trading Patterns.</title>
+                <venue>KDD</venue>
+                <pages>2141-2149</pages>
+                <year>2017</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/kdd/ZhangAQ17</key>
+                <doi>10.1145/3097983.3098117</doi>
+                <ee>https://doi.org/10.1145/3097983.3098117</ee>
+                <url>https://dblp.org/rec/conf/kdd/ZhangAQ17</url>
+            </info>
+            <url>URL#623705</url>
+        </hit>
+        <hit score="4" id="652896">
+            <info>
+                <authors>
+                    <author>Huy D. Huynh</author>
+                    <author>L. Minh Dang</author>
+                    <author>Duc Duong</author>
+                </authors>
+                <title>A New Model for Stock Price Movements Prediction Using Deep Neural Network.</title>
+                <venue>SoICT</venue>
+                <pages>57-62</pages>
+                <year>2017</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/soict/HuynhDD17</key>
+                <doi>10.1145/3155133.3155202</doi>
+                <ee>https://doi.org/10.1145/3155133.3155202</ee>
+                <url>https://dblp.org/rec/conf/soict/HuynhDD17</url>
+            </info>
+            <url>URL#652896</url>
+        </hit>
+        <hit score="4" id="848068">
+            <info>
+                <authors>
+                    <author>Jian Yang</author>
+                    <author>Ruonan Rao</author>
+                    <author>Pei Hong</author>
+                    <author>Peng Ding</author>
+                </authors>
+                <title>Ensemble Model for Stock Price Movement Trend Prediction on Different Investing Periods.</title>
+                <venue>CIS</venue>
+                <pages>358-361</pages>
+                <year>2016</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/cis/YangRHD16</key>
+                <doi>10.1109/CIS.2016.0087</doi>
+                <ee>https://doi.org/10.1109/CIS.2016.0087</ee>
+                <url>https://dblp.org/rec/conf/cis/YangRHD16</url>
+            </info>
+            <url>URL#848068</url>
+        </hit>
+        <hit score="4" id="848536">
+            <info>
+                <authors>
+                    <author>Meryem Ouahilal</author>
+                    <author>Mohammed El Mohajir</author>
+                    <author>Mohamed Chahhou</author>
+                    <author>Badr Eddine El Mohajir</author>
+                </authors>
+                <title>Optimizing stock market price prediction using a hybrid approach based on HP filter and support vector regression.</title>
+                <venue>CIST</venue>
+                <pages>290-294</pages>
+                <year>2016</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/cist/OuahilalMCM16</key>
+                <doi>10.1109/CIST.2016.7805059</doi>
+                <ee>https://doi.org/10.1109/CIST.2016.7805059</ee>
+                <url>https://dblp.org/rec/conf/cist/OuahilalMCM16</url>
+            </info>
+            <url>URL#848536</url>
+        </hit>
+        <hit score="4" id="852113">
+            <info>
+                <authors>
+                    <author>Alessandro Spelta</author>
+                </authors>
+                <title>Stock prices prediction via tensor decomposition and links forecast.</title>
+                <venue>COMPLEX NETWORKS</venue>
+                <pages>645-656</pages>
+                <year>2016</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/complexnetworks/Spelta16</key>
+                <doi>10.1007/978-3-319-50901-3_51</doi>
+                <ee>https://doi.org/10.1007/978-3-319-50901-3_51</ee>
+                <url>https://dblp.org/rec/conf/complexnetworks/Spelta16</url>
+            </info>
+            <url>URL#852113</url>
+        </hit>
+        <hit score="4" id="892578">
+            <info>
+                <authors>
+                    <author>Shuanglong Liu</author>
+                    <author>Jinwen Ma</author>
+                </authors>
+                <title>Stock Price Prediction Through the Mixture of Gaussian Processes via the Precise Hard-cut EM Algorithm.</title>
+                <venue>ICIC</venue>
+                <pages>282-293</pages>
+                <year>2016</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icic/LiuM16</key>
+                <doi>10.1007/978-3-319-42297-8_27</doi>
+                <ee>https://doi.org/10.1007/978-3-319-42297-8_27</ee>
+                <url>https://dblp.org/rec/conf/icic/LiuM16</url>
+            </info>
+            <url>URL#892578</url>
+        </hit>
+        <hit score="4" id="1127198">
+            <info>
+                <authors>
+                    <author>Lei Zhao</author>
+                    <author>Lin Wang</author>
+                </authors>
+                <title>Price Trend Prediction of Stock Market Using Outlier Data Mining Algorithm.</title>
+                <venue>BDCloud</venue>
+                <pages>93-98</pages>
+                <year>2015</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/bdcloud/ZhaoW15</key>
+                <doi>10.1109/BDCLOUD.2015.19</doi>
+                <ee>https://doi.org/10.1109/BDCloud.2015.19</ee>
+                <url>https://dblp.org/rec/conf/bdcloud/ZhaoW15</url>
+            </info>
+            <url>URL#1127198</url>
+        </hit>
+        <hit score="4" id="1183250">
+            <info>
+                <authors>
+                    <author>Feng Wang</author>
+                    <author>Yongquan Zhang</author>
+                    <author>Hang Xiao</author>
+                    <author>Li Kuang</author>
+                    <author>Yi Lai</author>
+                </authors>
+                <title>Enhancing Stock Price Prediction with a Hybrid Approach Based Extreme Learning Machine.</title>
+                <venue>ICDM Workshops</venue>
+                <pages>1568-1575</pages>
+                <year>2015</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icdm/WangZXKL15</key>
+                <doi>10.1109/ICDMW.2015.74</doi>
+                <ee>https://doi.org/10.1109/ICDMW.2015.74</ee>
+                <url>https://dblp.org/rec/conf/icdm/WangZXKL15</url>
+            </info>
+            <url>URL#1183250</url>
+        </hit>
+        <hit score="4" id="1227203">
+            <info>
+                <authors>
+                    <author>Behnoush Shakeri</author>
+                    <author>M. H. Fazel Zarandi</author>
+                    <author>Mosahar Tarimoradi</author>
+                    <author>I. B. Turksan</author>
+                </authors>
+                <title>Fuzzy clustering rule-based expert system for stock price movement prediction.</title>
+                <venue>NAFIPS/WConSC</venue>
+                <pages>1-6</pages>
+                <year>2015</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/nafips/ShakeriZTT15</key>
+                <doi>10.1109/NAFIPS-WCONSC.2015.7284198</doi>
+                <ee>https://doi.org/10.1109/NAFIPS-WConSC.2015.7284198</ee>
+                <url>https://dblp.org/rec/conf/nafips/ShakeriZTT15</url>
+            </info>
+            <url>URL#1227203</url>
+        </hit>
+        <hit score="4" id="1240023">
+            <info>
+                <authors>
+                    <author>Dhanya Jothimani</author>
+                    <author>Ravi Shankar Kumar</author>
+                    <author>Surendra S. Yadav</author>
+                </authors>
+                <title>A Hybrid EMD-ANN Model for Stock Price Prediction.</title>
+                <venue>SEMCCO</venue>
+                <pages>60-70</pages>
+                <year>2015</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/semcco/JothimaniKY15</key>
+                <doi>10.1007/978-3-319-48959-9_6</doi>
+                <ee>https://doi.org/10.1007/978-3-319-48959-9_6</ee>
+                <url>https://dblp.org/rec/conf/semcco/JothimaniKY15</url>
+            </info>
+            <url>URL#1240023</url>
+        </hit>
+        <hit score="4" id="1256755">
+            <info>
+                <authors>
+                    <author>Hana Alostad</author>
+                    <author>Hasan Davulcu</author>
+                </authors>
+                <title>Directional Prediction of Stock Prices Using Breaking News on Twitter.</title>
+                <venue>WI-IAT</venue>
+                <pages>523-530</pages>
+                <year>2015</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/webi/AlostadD15</key>
+                <doi>10.1109/WI-IAT.2015.82</doi>
+                <ee>https://doi.org/10.1109/WI-IAT.2015.82</ee>
+                <url>https://dblp.org/rec/conf/webi/AlostadD15</url>
+            </info>
+            <url>URL#1256755</url>
+        </hit>
+        <hit score="4" id="1256868">
+            <info>
+                <authors>
+                    <author>Richard Kyle MacKinnon</author>
+                    <author>Carson K. Leung</author>
+                </authors>
+                <title>Stock Price Prediction in Undirected Graphs Using a Structural Support Vector Machine.</title>
+                <venue>WI-IAT</venue>
+                <pages>548-555</pages>
+                <year>2015</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/webi/MacKinnonL15</key>
+                <doi>10.1109/WI-IAT.2015.189</doi>
+                <ee>https://doi.org/10.1109/WI-IAT.2015.189</ee>
+                <url>https://dblp.org/rec/conf/webi/MacKinnonL15</url>
+            </info>
+            <url>URL#1256868</url>
+        </hit>
+        <hit score="4" id="1401026">
+            <info>
+                <authors>
+                    <author>Alexander Porshnev</author>
+                    <author>Ilya Redkin</author>
+                </authors>
+                <title>Analysis of Twitter Users&apos; Mood for Prediction of Gold and Silver Prices in the Stock Market.</title>
+                <venue>AIST</venue>
+                <pages>190-197</pages>
+                <year>2014</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/aist/PorshnevR14</key>
+                <doi>10.1007/978-3-319-12580-0_19</doi>
+                <ee>https://doi.org/10.1007/978-3-319-12580-0_19</ee>
+                <url>https://dblp.org/rec/conf/aist/PorshnevR14</url>
+            </info>
+            <url>URL#1401026</url>
+        </hit>
+        <hit score="4" id="1463687">
+            <info>
+                <authors>
+                    <author>Li Bing</author>
+                    <author>Keith C. C. Chan</author>
+                    <author>Carol Xiaojuan Ou</author>
+                </authors>
+                <title>Public Sentiment Analysis in Twitter Data for Prediction of a Company&apos;s Stock Price Movements.</title>
+                <venue>ICEBE</venue>
+                <pages>232-239</pages>
+                <year>2014</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icebe/BingCO14</key>
+                <doi>10.1109/ICEBE.2014.47</doi>
+                <ee>https://doi.org/10.1109/ICEBE.2014.47</ee>
+                <url>https://dblp.org/rec/conf/icebe/BingCO14</url>
+            </info>
+            <url>URL#1463687</url>
+        </hit>
+        <hit score="4" id="1476248">
+            <info>
+                <authors>
+                    <author>Carson Kai-Sang Leung</author>
+                    <author>Richard Kyle MacKinnon</author>
+                    <author>Yang Wang</author>
+                </authors>
+                <title>A machine learning approach for stock price prediction.</title>
+                <venue>IDEAS</venue>
+                <pages>274-277</pages>
+                <year>2014</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ideas/LeungMW14</key>
+                <doi>10.1145/2628194.2628211</doi>
+                <ee>https://doi.org/10.1145/2628194.2628211</ee>
+                <url>https://dblp.org/rec/conf/ideas/LeungMW14</url>
+            </info>
+            <url>URL#1476248</url>
+        </hit>
+        <hit score="4" id="1491841">
+            <info>
+                <authors>
+                    <author>Wenli Zheng</author>
+                    <author>Jinwen Ma</author>
+                </authors>
+                <title>Diagonal Log-Normal Generalized RBF Neural Network for Stock Price Prediction.</title>
+                <venue>ISNN</venue>
+                <pages>576-583</pages>
+                <year>2014</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/isnn/ZhengM14</key>
+                <doi>10.1007/978-3-319-12436-0_64</doi>
+                <ee>https://doi.org/10.1007/978-3-319-12436-0_64</ee>
+                <url>https://dblp.org/rec/conf/isnn/ZhengM14</url>
+            </info>
+            <url>URL#1491841</url>
+        </hit>
+        <hit score="4" id="1494410">
+            <info>
+                <authors>
+                    <author>Fenghua Wen</author>
+                    <author>Jihong Xiao</author>
+                    <author>Zhifang He</author>
+                    <author>Xu Gong</author>
+                </authors>
+                <title>Stock Price Prediction based on SSA and SVM.</title>
+                <venue>ITQM</venue>
+                <pages>625-631</pages>
+                <year>2014</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/itqm/WenXHG14</key>
+                <doi>10.1016/J.PROCS.2014.05.309</doi>
+                <ee>https://doi.org/10.1016/j.procs.2014.05.309</ee>
+                <url>https://dblp.org/rec/conf/itqm/WenXHG14</url>
+            </info>
+            <url>URL#1494410</url>
+        </hit>
+        <hit score="4" id="1499691">
+            <info>
+                <authors>
+                    <author>Heeyoung Lee</author>
+                    <author>Mihai Surdeanu</author>
+                    <author>Bill MacCartney</author>
+                    <author>Dan Jurafsky</author>
+                </authors>
+                <title>On the Importance of Text Analysis for Stock Price Prediction.</title>
+                <venue>LREC</venue>
+                <pages>1170-1175</pages>
+                <year>2014</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/lrec/LeeSMJ14</key>
+                <ee>http://www.lrec-conf.org/proceedings/lrec2014/summaries/1065.html</ee>
+                <url>https://dblp.org/rec/conf/lrec/LeeSMJ14</url>
+            </info>
+            <url>URL#1499691</url>
+        </hit>
+        <hit score="4" id="1531869">
+            <info>
+                <authors>
+                    <author>Adebiyi Ariyo Ariyo</author>
+                    <author>Aderemi Oluyinka Adewumi</author>
+                    <author>Charles K. Ayo</author>
+                </authors>
+                <title>Stock Price Prediction Using the ARIMA Model.</title>
+                <venue>UKSim</venue>
+                <pages>106-112</pages>
+                <year>2014</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/uksim/AriyoAA14</key>
+                <doi>10.1109/UKSIM.2014.67</doi>
+                <ee>https://doi.org/10.1109/UKSim.2014.67</ee>
+                <url>https://dblp.org/rec/conf/uksim/AriyoAA14</url>
+            </info>
+            <url>URL#1531869</url>
+        </hit>
+        <hit score="4" id="1537589">
+            <info>
+                <authors>
+                    <author>Feifei Xu</author>
+                    <author>Vlado Keselj</author>
+                </authors>
+                <title>Collective Sentiment Mining of Microblogs in 24-Hour Stock Price Movement Prediction.</title>
+                <venue>CBI</venue>
+                <pages>60-67</pages>
+                <year>2014</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/wecwis/XuK14</key>
+                <doi>10.1109/CBI.2014.37</doi>
+                <ee>https://doi.org/10.1109/CBI.2014.37</ee>
+                <url>https://dblp.org/rec/conf/wecwis/XuK14</url>
+            </info>
+            <url>URL#1537589</url>
+        </hit>
+        <hit score="4" id="1722195">
+            <info>
+                <authors>
+                    <author>Tao Xing</author>
+                    <author>Yuan Sun</author>
+                    <author>Qian Wang</author>
+                    <author>Guo Yu</author>
+                </authors>
+                <title>The analysis and prediction of stock price.</title>
+                <venue>GrC</venue>
+                <pages>368-373</pages>
+                <year>2013</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/grc/XingSWY13</key>
+                <doi>10.1109/GRC.2013.6740438</doi>
+                <ee>https://doi.org/10.1109/GrC.2013.6740438</ee>
+                <url>https://dblp.org/rec/conf/grc/XingSWY13</url>
+            </info>
+            <url>URL#1722195</url>
+        </hit>
+        <hit score="4" id="1745673">
+            <info>
+                <authors>
+                    <author>Dong Kyu Kim</author>
+                    <author>Rhee Man Kil</author>
+                </authors>
+                <title>Stock Price Prediction Based on a Network with Gaussian Kernel Functions.</title>
+                <venue>ICONIP</venue>
+                <pages>705-712</pages>
+                <year>2013</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/iconip/KimK13</key>
+                <doi>10.1007/978-3-642-42042-9_87</doi>
+                <ee>https://doi.org/10.1007/978-3-642-42042-9_87</ee>
+                <url>https://dblp.org/rec/conf/iconip/KimK13</url>
+            </info>
+            <url>URL#1745673</url>
+        </hit>
+        <hit score="4" id="1745743">
+            <info>
+                <authors>
+                    <author>Kanghee Park</author>
+                    <author>Hyunjung Shin</author>
+                </authors>
+                <title>Stock Price Prediction Based on Hierarchical Structure of Financial Networks.</title>
+                <venue>ICONIP</venue>
+                <pages>456-464</pages>
+                <year>2013</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/iconip/ParkS13</key>
+                <doi>10.1007/978-3-642-42042-9_57</doi>
+                <ee>https://doi.org/10.1007/978-3-642-42042-9_57</ee>
+                <url>https://dblp.org/rec/conf/iconip/ParkS13</url>
+            </info>
+            <url>URL#1745743</url>
+        </hit>
+        <hit score="4" id="1750984">
+            <info>
+                <authors>
+                    <author>Arne Thorvald Gierløff Hollum</author>
+                    <author>Borre P. Mosch</author>
+                    <author>Zoltán Szlávik</author>
+                </authors>
+                <title>Economic Sentiment - Text-Based Prediction of Stock Price Movements with Machine Learning and WordNet.</title>
+                <venue>IEA/AIE</venue>
+                <pages>322-331</pages>
+                <year>2013</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ieaaie/HollumMS13</key>
+                <doi>10.1007/978-3-642-38577-3_33</doi>
+                <ee>https://doi.org/10.1007/978-3-642-38577-3_33</ee>
+                <url>https://dblp.org/rec/conf/ieaaie/HollumMS13</url>
+            </info>
+            <url>URL#1750984</url>
+        </hit>
+        <hit score="4" id="1983058">
+            <info>
+                <authors>
+                    <author>Michael Hagenau</author>
+                    <author>Michael Liebmann</author>
+                    <author>Markus Hedwig</author>
+                    <author>Dirk Neumann 0001</author>
+                </authors>
+                <title>Automated News Reading - Stock Price Prediction Based on Financial News Using Context-Specific Features.</title>
+                <venue>HICSS</venue>
+                <pages>1040-1049</pages>
+                <year>2012</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/hicss/HagenauLHN12</key>
+                <doi>10.1109/HICSS.2012.129</doi>
+                <ee>https://doi.org/10.1109/HICSS.2012.129</ee>
+                <url>https://dblp.org/rec/conf/hicss/HagenauLHN12</url>
+            </info>
+            <url>URL#1983058</url>
+        </hit>
+        <hit score="4" id="2058702">
+            <info>
+                <authors>
+                    <author>Gabriel Iuhasz</author>
+                    <author>Monica Tirea</author>
+                    <author>Viorel Negru</author>
+                </authors>
+                <title>Neural Network Predictions of Stock Price Fluctuations.</title>
+                <venue>SYNASC</venue>
+                <pages>505-512</pages>
+                <year>2012</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/synasc/IuhaszTN12</key>
+                <doi>10.1109/SYNASC.2012.7</doi>
+                <ee>https://doi.org/10.1109/SYNASC.2012.7</ee>
+                <url>https://dblp.org/rec/conf/synasc/IuhaszTN12</url>
+            </info>
+            <url>URL#2058702</url>
+        </hit>
+        <hit score="4" id="2067806">
+            <info>
+                <authors>
+                    <author>Wei Fan</author>
+                    <author>Toyohide Watanabe</author>
+                </authors>
+                <title>Dynamic prediction of forthcoming trends in stock prices from news articles.</title>
+                <venue>WIMS</venue>
+                <pages>16:1-16:9</pages>
+                <year>2012</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/wims/FanW12</key>
+                <doi>10.1145/2254129.2254151</doi>
+                <ee>https://doi.org/10.1145/2254129.2254151</ee>
+                <url>https://dblp.org/rec/conf/wims/FanW12</url>
+            </info>
+            <url>URL#2067806</url>
+        </hit>
+        <hit score="4" id="2208484">
+            <info>
+                <authors>
+                    <author>Shangkun Deng</author>
+                    <author>Takashi Mitsubuchi</author>
+                    <author>Kei Shioda</author>
+                    <author>Tatsuro Shimada</author>
+                    <author>Akito Sakurai</author>
+                </authors>
+                <title>Combining Technical Analysis with Sentiment Analysis for Stock Price Prediction.</title>
+                <venue>DASC</venue>
+                <pages>800-807</pages>
+                <year>2011</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/dasc/DengMSSS11</key>
+                <doi>10.1109/DASC.2011.138</doi>
+                <ee>https://doi.org/10.1109/DASC.2011.138</ee>
+                <url>https://dblp.org/rec/conf/dasc/DengMSSS11</url>
+            </info>
+            <url>URL#2208484</url>
+        </hit>
+        <hit score="4" id="2234006">
+            <info>
+                <authors>
+                    <author>Michael Hagenau</author>
+                    <author>Michael Liebmann</author>
+                    <author>Dirk Neumann 0001</author>
+                </authors>
+                <title>Impact of Feature Selection and Feature Types on Financial Stock Price Prediction.</title>
+                <venue>KDIR</venue>
+                <pages>303-308</pages>
+                <year>2011</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ic3k/HagenauLN11</key>
+                <url>https://dblp.org/rec/conf/ic3k/HagenauLN11</url>
+            </info>
+            <url>URL#2234006</url>
+        </hit>
+        <hit score="4" id="2248742">
+            <info>
+                <authors>
+                    <author>Shangkun Deng</author>
+                    <author>Takashi Mitsubuchi</author>
+                    <author>Kei Shioda</author>
+                    <author>Tatsuro Shimada</author>
+                    <author>Akito Sakurai</author>
+                </authors>
+                <title>Multiple Kernel Learning on Time Series Data and Social Networks for Stock Price Prediction.</title>
+                <venue>ICMLA</venue>
+                <pages>228-234</pages>
+                <year>2011</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icmla/DengMSSS11</key>
+                <doi>10.1109/ICMLA.2011.99</doi>
+                <ee>https://doi.org/10.1109/ICMLA.2011.99</ee>
+                <url>https://dblp.org/rec/conf/icmla/DengMSSS11</url>
+            </info>
+            <url>URL#2248742</url>
+        </hit>
+        <hit score="4" id="2255671">
+            <info>
+                <authors>
+                    <author>Volodymyr Turchenko</author>
+                    <author>Patrizia Beraldi</author>
+                    <author>Francesco De Simone</author>
+                    <author>Lucio Grandinetti</author>
+                </authors>
+                <title>Short-term stock price prediction using MLP in moving simulation mode.</title>
+                <venue>IDAACS</venue>
+                <pages>666-671</pages>
+                <year>2011</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/idaacs/TurchenkoBSG11</key>
+                <doi>10.1109/IDAACS.2011.6072853</doi>
+                <ee>https://doi.org/10.1109/IDAACS.2011.6072853</ee>
+                <url>https://dblp.org/rec/conf/idaacs/TurchenkoBSG11</url>
+            </info>
+            <url>URL#2255671</url>
+        </hit>
+        <hit score="4" id="2298823">
+            <info>
+                <authors>
+                    <author>Fagner Andrade de Oliveira</author>
+                    <author>Luis E. Zárate</author>
+                    <author>Marcos de Azevedo Reis</author>
+                    <author>Cristiane Neri Nobre</author>
+                </authors>
+                <title>The use of artificial neural networks in the analysis and prediction of stock prices.</title>
+                <venue>SMC</venue>
+                <pages>2151-2155</pages>
+                <year>2011</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/smc/OliveiraZRN11</key>
+                <doi>10.1109/ICSMC.2011.6083990</doi>
+                <ee>https://doi.org/10.1109/ICSMC.2011.6083990</ee>
+                <url>https://dblp.org/rec/conf/smc/OliveiraZRN11</url>
+            </info>
+            <url>URL#2298823</url>
+        </hit>
+        <hit score="4" id="2469203">
+            <info>
+                <authors>
+                    <author>Zhihua Leng</author>
+                    <author>Changjian Fu</author>
+                    <author>Xinjun Gu</author>
+                </authors>
+                <title>Stock Price Index Prediction Based on Mobile Data Mining.</title>
+                <venue>ICEE</venue>
+                <pages>4533-4536</pages>
+                <year>2010</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icee/LengFG10</key>
+                <doi>10.1109/ICEE.2010.1138</doi>
+                <ee>https://doi.org/10.1109/ICEE.2010.1138</ee>
+                <url>https://dblp.org/rec/conf/icee/LengFG10</url>
+            </info>
+            <url>URL#2469203</url>
+        </hit>
+        <hit score="4" id="2486893">
+            <info>
+                <authors>
+                    <author>Ngoc Nam Nguyen</author>
+                    <author>Chai Quek</author>
+                </authors>
+                <title>Stock price prediction using Generic Self-Evolving Takagi-Sugeno-Kang (GSETSK) fuzzy neural network.</title>
+                <venue>IJCNN</venue>
+                <pages>1-8</pages>
+                <year>2010</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ijcnn/NguyenQ10</key>
+                <doi>10.1109/IJCNN.2010.5596348</doi>
+                <ee>https://doi.org/10.1109/IJCNN.2010.5596348</ee>
+                <url>https://dblp.org/rec/conf/ijcnn/NguyenQ10</url>
+            </info>
+            <url>URL#2486893</url>
+        </hit>
+        <hit score="4" id="2536751">
+            <info>
+                <authors>
+                    <author>Caleb Krell</author>
+                    <author>Hank Grant</author>
+                </authors>
+                <title>Naïve learning algorithms utilized for the prediction of stock prices to compare economic models of decision making.</title>
+                <venue>Winter Simulation Conference</venue>
+                <pages>2642-2654</pages>
+                <year>2010</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/wsc/KrellG10</key>
+                <doi>10.1109/WSC.2010.5678960</doi>
+                <ee>https://doi.org/10.1109/WSC.2010.5678960</ee>
+                <url>https://dblp.org/rec/conf/wsc/KrellG10</url>
+            </info>
+            <url>URL#2536751</url>
+        </hit>
+        <hit score="4" id="2669877">
+            <info>
+                <authors>
+                    <author>Garnett Carl Wilson</author>
+                    <author>Wolfgang Banzhaf</author>
+                </authors>
+                <title>Prediction of Interday Stock Prices Using Developmental and Linear Genetic Programming.</title>
+                <venue>EvoWorkshops</venue>
+                <pages>172-181</pages>
+                <year>2009</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/evoW/WilsonB09</key>
+                <doi>10.1007/978-3-642-01129-0_21</doi>
+                <ee>https://doi.org/10.1007/978-3-642-01129-0_21</ee>
+                <url>https://dblp.org/rec/conf/evoW/WilsonB09</url>
+            </info>
+            <url>URL#2669877</url>
+        </hit>
+        <hit score="4" id="2699455">
+            <info>
+                <authors>
+                    <author>Chi-Jie Lu</author>
+                    <author>Chih-Chou Chiu</author>
+                    <author>Jung-Li Yang</author>
+                </authors>
+                <title>Integrating Nonlinear Independent Component Analysis and Neural Network in Stock Price Prediction.</title>
+                <venue>IEA/AIE</venue>
+                <pages>614-623</pages>
+                <year>2009</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ieaaie/LuCY09</key>
+                <doi>10.1007/978-3-642-02568-6_62</doi>
+                <ee>https://doi.org/10.1007/978-3-642-02568-6_62</ee>
+                <url>https://dblp.org/rec/conf/ieaaie/LuCY09</url>
+            </info>
+            <url>URL#2699455</url>
+        </hit>
+        <hit score="4" id="2703320">
+            <info>
+                <authors>
+                    <author>Jagdish Chandra Patra</author>
+                    <author>Nguyen C. Thanh</author>
+                    <author>Pramod Kumar Meher</author>
+                </authors>
+                <title>Computationally efficient FLANN-based intelligent stock price prediction system.</title>
+                <venue>IJCNN</venue>
+                <pages>2431-2438</pages>
+                <year>2009</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ijcnn/PatraTM09</key>
+                <doi>10.1109/IJCNN.2009.5178594</doi>
+                <ee>https://doi.org/10.1109/IJCNN.2009.5178594</ee>
+                <url>https://dblp.org/rec/conf/ijcnn/PatraTM09</url>
+            </info>
+            <url>URL#2703320</url>
+        </hit>
+        <hit score="4" id="2871952">
+            <info>
+                <authors>
+                    <author>Hameed Al-Qaheri</author>
+                    <author>Shariffah Zamoon</author>
+                    <author>Aboul Ella Hassanien</author>
+                    <author>Ajith Abraham</author>
+                </authors>
+                <title>Rough Set Generating Prediction Rules for Stock Price Movement.</title>
+                <venue>EMS</venue>
+                <pages>111-116</pages>
+                <year>2008</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ems/Al-QaheriZHA08</key>
+                <doi>10.1109/EMS.2008.89</doi>
+                <ee>https://doi.org/10.1109/EMS.2008.89</ee>
+                <url>https://dblp.org/rec/conf/ems/Al-QaheriZHA08</url>
+            </info>
+            <url>URL#2871952</url>
+        </hit>
+        <hit score="4" id="2941769">
+            <info>
+                <authors>
+                    <author>Phayung Meesad</author>
+                    <author>Tong Srikhacha</author>
+                </authors>
+                <title>Stock Price Time Series Prediction using Neuro-Fuzzy with Support Vector Guideline System.</title>
+                <venue>SNPD</venue>
+                <pages>422-427</pages>
+                <year>2008</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/snpd/MeesadS08</key>
+                <doi>10.1109/SNPD.2008.55</doi>
+                <ee>https://doi.org/10.1109/SNPD.2008.55</ee>
+                <url>https://dblp.org/rec/conf/snpd/MeesadS08</url>
+            </info>
+            <url>URL#2941769</url>
+        </hit>
+        <hit score="4" id="3042566">
+            <info>
+                <authors>
+                    <author>Richi Nayak</author>
+                    <author>Paul te Braak</author>
+                </authors>
+                <title>Temporal Pattern Matching for the Prediction of Stock Prices.</title>
+                <venue>AIDM</venue>
+                <pages>99-107</pages>
+                <year>2007</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ausdm/NayakB07</key>
+                <ee>http://crpit.com/abstracts/CRPITV84Nayak.html</ee>
+                <url>https://dblp.org/rec/conf/ausdm/NayakB07</url>
+            </info>
+            <url>URL#3042566</url>
+        </hit>
+        <hit score="4" id="3049872">
+            <info>
+                <authors>
+                    <author>Ankit Soni</author>
+                    <author>Nees Jan van Eck</author>
+                    <author>Uzay Kaymak</author>
+                </authors>
+                <title>Prediction of Stock Price Movements Based on Concept Map Information.</title>
+                <venue>MCDM</venue>
+                <pages>205-211</pages>
+                <year>2007</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/cimcdm/SoniEK07</key>
+                <doi>10.1109/MCDM.2007.369438</doi>
+                <ee>https://doi.org/10.1109/MCDM.2007.369438</ee>
+                <url>https://dblp.org/rec/conf/cimcdm/SoniEK07</url>
+            </info>
+            <url>URL#3049872</url>
+        </hit>
+        <hit score="4" id="3102957">
+            <info>
+                <authors>
+                    <author>Yu Zheng Zhai</author>
+                    <author>Arthur L. Hsu</author>
+                    <author>Saman K. Halgamuge</author>
+                </authors>
+                <title>Combining News and Technical Indicators in Daily Stock Price Trends Prediction.</title>
+                <venue>ISNN</venue>
+                <pages>1087-1096</pages>
+                <year>2007</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/isnn/ZhaiHH07</key>
+                <doi>10.1007/978-3-540-72395-0_132</doi>
+                <ee>https://doi.org/10.1007/978-3-540-72395-0_132</ee>
+                <url>https://dblp.org/rec/conf/isnn/ZhaiHH07</url>
+            </info>
+            <url>URL#3102957</url>
+        </hit>
+        <hit score="4" id="3121547">
+            <info>
+                <authors>
+                    <author>Hiromitsu Watanabe</author>
+                    <author>Basabi Chakraborty</author>
+                    <author>Goutam Chakraborty</author>
+                </authors>
+                <title>Rough Neuro Voting System for Data Mining - Application to Stock Price Prediction.</title>
+                <venue>RSKT</venue>
+                <pages>558-565</pages>
+                <year>2007</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/rskt/WatanabeCC07</key>
+                <doi>10.1007/978-3-540-72458-2_69</doi>
+                <ee>https://doi.org/10.1007/978-3-540-72458-2_69</ee>
+                <url>https://dblp.org/rec/conf/rskt/WatanabeCC07</url>
+            </info>
+            <url>URL#3121547</url>
+        </hit>
+        <hit score="4" id="3248346">
+            <info>
+                <authors>
+                    <author>M. N. Nguyen</author>
+                    <author>U. Omkar</author>
+                    <author>D. Shi</author>
+                    <author>J. B. Hayfron-Acquah</author>
+                </authors>
+                <title>Stock Market Price Prediction using Cyclic Self-Organizing Hierarchical CMAC.</title>
+                <venue>ICARCV</venue>
+                <pages>1-6</pages>
+                <year>2006</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icarcv/NguyenOSH06</key>
+                <doi>10.1109/ICARCV.2006.345438</doi>
+                <ee>https://doi.org/10.1109/ICARCV.2006.345438</ee>
+                <url>https://dblp.org/rec/conf/icarcv/NguyenOSH06</url>
+            </info>
+            <url>URL#3248346</url>
+        </hit>
+        <hit score="4" id="3274225">
+            <info>
+                <authors>
+                    <author>Cuifeng Li</author>
+                </authors>
+                <title>Grey Markov Model Based on Parameter Fits and its Application in Stock Price Prediction.</title>
+                <venue>ISDA</venue>
+                <pages>594-598</pages>
+                <year>2006</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/isda/Li06</key>
+                <doi>10.1109/ISDA.2006.165</doi>
+                <ee>https://doi.org/10.1109/ISDA.2006.165</ee>
+                <url>https://dblp.org/rec/conf/isda/Li06</url>
+            </info>
+            <url>URL#3274225</url>
+        </hit>
+        <hit score="4" id="3434879">
+            <info>
+                <authors>
+                    <author>Takashi Yamashita</author>
+                    <author>Kotaro Hirasawa</author>
+                    <author>Jinglu Hu</author>
+                </authors>
+                <title>Multi-branch Neural Networks and Its Application to Stock Price Prediction.</title>
+                <venue>KES</venue>
+                <pages>1-7</pages>
+                <year>2005</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/kes/YamashitaHH05</key>
+                <doi>10.1007/11552413_1</doi>
+                <ee>https://doi.org/10.1007/11552413_1</ee>
+                <url>https://dblp.org/rec/conf/kes/YamashitaHH05</url>
+            </info>
+            <url>URL#3434879</url>
+        </hit>
+        <hit score="4" id="3541122">
+            <info>
+                <authors>
+                    <author>Sadia Malik</author>
+                    <author>Uzair Ahmad</author>
+                    <author>Arshad Ali</author>
+                    <author>Fatima Abbasi</author>
+                </authors>
+                <title>Testing Price Prediction Models in Dynamically Configurable Artificial Stock Market.</title>
+                <venue>IC-AI</venue>
+                <pages>671-677</pages>
+                <year>2004</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icai/MalikAAA04</key>
+                <url>https://dblp.org/rec/conf/icai/MalikAAA04</url>
+            </info>
+            <url>URL#3541122</url>
+        </hit>
+        <hit score="4" id="3661618">
+            <info>
+                <authors>
+                    <author>Jae-Ho Kim</author>
+                    <author>Sa-Joon Park</author>
+                    <author>Ki-Tae Kim</author>
+                    <author>Su-Chul Hwang</author>
+                </authors>
+                <title>Stock Price Prediction Using Backpropagation Neural Network in KOSPI.</title>
+                <venue>IC-AI</venue>
+                <pages>200-206</pages>
+                <year>2003</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/icai/KimPKH03</key>
+                <url>https://dblp.org/rec/conf/icai/KimPKH03</url>
+            </info>
+            <url>URL#3661618</url>
+        </hit>
+        <hit score="4" id="3740709">
+            <info>
+                <authors>
+                    <author>Benjamin W. Wah</author>
+                    <author>Minglun Qian</author>
+                </authors>
+                <title>Constrained Formulations and Algorithms for Stock-Price Predictions Using Recurrent FIR Neural Networks.</title>
+                <venue>AAAI/IAAI</venue>
+                <pages>211-216</pages>
+                <year>2002</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/aaai/WahQ02</key>
+                <ee>http://www.aaai.org/Library/AAAI/2002/aaai02-033.php</ee>
+                <url>https://dblp.org/rec/conf/aaai/WahQ02</url>
+            </info>
+            <url>URL#3740709</url>
+        </hit>
+        <hit score="4" id="3997461">
+            <info>
+                <authors>
+                    <author>Zhanggui Zeng</author>
+                    <author>Hong Yan 0001</author>
+                    <author>Alan M. N. Fu</author>
+                </authors>
+                <title>A new stock price prediction method based on pattern classification.</title>
+                <venue>IJCNN</venue>
+                <pages>3866-3870</pages>
+                <year>1999</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/ijcnn/ZengYF99</key>
+                <doi>10.1109/IJCNN.1999.830772</doi>
+                <ee>https://doi.org/10.1109/IJCNN.1999.830772</ee>
+                <url>https://dblp.org/rec/conf/ijcnn/ZengYF99</url>
+            </info>
+            <url>URL#3997461</url>
+        </hit>
+        <hit score="4" id="4281577">
+            <info>
+                <authors>
+                    <author>Clarence N. W. Tan</author>
+                    <author>Gerhard E. Wittig</author>
+                </authors>
+                <title>A study of the parameters of a backpropagation stock price prediction model.</title>
+                <venue>ANNES</venue>
+                <pages>288-291</pages>
+                <year>1993</year>
+                <type>Conference and Workshop Papers</type>
+                <key>conf/annes/TanW93</key>
+                <doi>10.1109/ANNES.1993.323023</doi>
+                <ee>https://doi.org/10.1109/ANNES.1993.323023</ee>
+                <url>https://dblp.org/rec/conf/annes/TanW93</url>
+            </info>
+            <url>URL#4281577</url>
+        </hit>
+    </hits>
+</result>
